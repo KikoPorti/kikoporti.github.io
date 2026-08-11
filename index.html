@@ -1,56 +1,76 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-```
-<title>Francisco Portillo — Linguistics, Cognitive Science & AI</title>
+    <title>Francisco Portillo — Linguistics, Cognitive Science & AI</title>
 
-<meta name="description"
-    content="Francisco Portillo — undergraduate researcher working at the intersection of language acquisition, neurolinguistics, cognitive science, and computational linguistics.">
+    <meta name="description"
+          content="Francisco Portillo — undergraduate researcher working at the intersection of language acquisition, neurolinguistics, cognitive science, and computational linguistics.">
 
-<meta name="author" content="Francisco Portillo">
+    <meta name="author" content="Francisco Portillo">
 
-<meta property="og:title"
-    content="Francisco Portillo — Linguistics, Cognitive Science & AI">
+    <meta property="og:title"
+          content="Francisco Portillo — Linguistics, Cognitive Science & AI">
+    <meta property="og:description"
+          content="Research in language acquisition, neurolinguistics, cognitive science, and computational linguistics.">
+    <meta property="og:type" content="website">
 
-<meta property="og:description"
-    content="Research in language acquisition, neurolinguistics, cognitive science, and computational linguistics.">
+    <meta name="theme-color" content="#faf9f7">
 
-<meta property="og:type" content="website">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
 
-<link
-    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap"
-    rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
-```
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-```
-<nav class="navbar" aria-label="Main navigation">
+<!-- =========================
+     PAGE PROGRESS
+========================== -->
+
+<div class="scroll-progress" aria-hidden="true"></div>
+
+
+<!-- =========================
+     NAVIGATION
+========================== -->
+
+<nav class="navbar" id="navbar">
 
     <a class="nav-name" href="#top">
         Francisco Portillo
     </a>
 
     <div class="nav-links">
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#experience">Experience</a>
-        <a href="#talks">Talks</a>
-        <a href="FranciscoPortillo_CV.pdf" target="_blank" rel="noopener noreferrer">
-            CV
+
+        <a href="#research" data-section="research">Research</a>
+
+        <a href="#publications" data-section="publications">
+            Publications
         </a>
+
+        <a href="#experience" data-section="experience">
+            Experience
+        </a>
+
+        <a href="#talks" data-section="talks">
+            Talks
+        </a>
+
+        <a href="FranciscoPortillo_CV.pdf"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="nav-cv">
+            CV ↗
+        </a>
+
     </div>
 
 </nav>
@@ -58,21 +78,35 @@
 
 <main id="top">
 
-    <!-- HERO -->
+<!-- =========================
+     HERO
+========================== -->
 
-    <header class="hero">
+<header class="hero">
+
+    <div class="hero-grid">
 
         <div class="hero-text">
 
-            <p class="eyebrow hero-reveal reveal-1">
-                Linguistics · Cognitive Science · Computational Language
-            </p>
+            <div class="hero-kicker reveal">
+                <span class="status-dot"></span>
+                Linguistics · Cognitive Science · AI
+            </div>
 
-            <h1 class="hero-reveal reveal-2">
-                Francisco Portillo
+
+            <h1 class="reveal reveal-delay-1">
+                Francisco<br>
+                <span>Portillo</span>
             </h1>
 
-            <p class="intro hero-reveal reveal-3">
+
+            <p class="hero-role reveal reveal-delay-2">
+                Undergraduate Researcher
+            </p>
+
+
+            <p class="intro reveal reveal-delay-2">
+
                 Fourth-year undergraduate in Spanish Language and Literature at
                 <a href="https://www.unav.edu/"
                    target="_blank"
@@ -80,68 +114,37 @@
                    class="institution-link">
                     Universidad de Navarra
                 </a>.
+
             </p>
 
-            <p class="research-statement hero-reveal reveal-4">
+
+            <p class="research-statement reveal reveal-delay-3">
+
                 My research sits at the intersection of
                 <strong>language acquisition</strong>,
                 <strong>neurolinguistics</strong>, and
                 <strong>computational linguistics</strong>.
+
                 I use computational models — particularly large language models —
                 as experimental mirrors to study what their alignment with, and
                 divergence from, human behavior reveals about the cognitive
                 architecture of language.
+
             </p>
 
 
-            <!-- Research trajectory -->
+            <!-- CURRENT RESEARCH -->
 
-            <div class="research-trajectory hero-reveal reveal-5">
+            <div class="current-work reveal reveal-delay-4">
 
-                <p class="trajectory-label">
-                    Research trajectory
-                </p>
+                <div class="current-work-header">
 
-                <div class="trajectory">
+                    <span class="current-line"></span>
 
-                    <div class="trajectory-step">
-                        <span>01</span>
-                        <strong>Acquisition</strong>
-                    </div>
-
-                    <div class="trajectory-line"></div>
-
-                    <div class="trajectory-step">
-                        <span>02</span>
-                        <strong>Processing</strong>
-                    </div>
-
-                    <div class="trajectory-line"></div>
-
-                    <div class="trajectory-step">
-                        <span>03</span>
-                        <strong>Computation</strong>
-                    </div>
-
-                    <div class="trajectory-line"></div>
-
-                    <div class="trajectory-step">
-                        <span>04</span>
-                        <strong>Neural signatures</strong>
-                    </div>
+                    <p>Currently working with</p>
 
                 </div>
 
-            </div>
-
-
-            <!-- Current work -->
-
-            <div class="current-work hero-reveal reveal-6">
-
-                <p class="current-work-label">
-                    Currently working with
-                </p>
 
                 <div class="institution-list">
 
@@ -149,24 +152,28 @@
                        target="_blank"
                        rel="noopener noreferrer">
                         Harvard Phonetics Laboratory
+                        <span>↗</span>
                     </a>
 
                     <a href="https://www.bcbl.eu/en/research/research-groups/infant-language-cognition"
                        target="_blank"
                        rel="noopener noreferrer">
                         BCBL
+                        <span>↗</span>
                     </a>
 
                     <a href="https://www.mpi.nl/department/language-and-computation-neural-systems/19"
                        target="_blank"
                        rel="noopener noreferrer">
                         Max Planck Institute
+                        <span>↗</span>
                     </a>
 
                     <a href="https://cld.lab.uiowa.edu/"
                        target="_blank"
                        rel="noopener noreferrer">
                         University of Iowa
+                        <span>↗</span>
                     </a>
 
                 </div>
@@ -174,58 +181,28 @@
             </div>
 
 
-            <!-- Animated research signal -->
+            <!-- SOCIAL / ACADEMIC LINKS -->
 
-            <div class="hero-signal" aria-hidden="true">
+            <div class="contact-row reveal reveal-delay-4">
 
-                <svg viewBox="0 0 700 120"
-                     preserveAspectRatio="none">
-
-                    <path
-                        class="signal-baseline"
-                        d="M0 60 H700"
-                    />
-
-                    <path
-                        class="signal-wave"
-                        d="M0 60
-                           C35 60, 35 60, 70 60
-                           C90 60, 92 20, 112 20
-                           C132 20, 135 100, 155 100
-                           C175 100, 178 45, 198 45
-                           C218 45, 220 70, 240 70
-                           C260 70, 263 58, 280 58
-                           C300 58, 302 25, 320 25
-                           C340 25, 342 92, 360 92
-                           C380 92, 382 55, 400 55
-                           C420 55, 423 65, 440 65
-                           C460 65, 462 38, 480 38
-                           C500 38, 502 82, 520 82
-                           C540 82, 542 57, 560 57
-                           C580 57, 582 67, 600 67
-                           C620 67, 622 48, 640 48
-                           C660 48, 662 60, 700 60"
-                    />
-
-                </svg>
-
-            </div>
-
-
-            <!-- Contact / Social -->
-
-            <div class="contact-row hero-reveal reveal-7">
+                <!-- Email -->
 
                 <a href="mailto:fportillolo@alumni.unav.es"
-                   class="contact-link">
+                   class="contact-link email-link"
+                   aria-label="Email Francisco Portillo">
 
                     <svg viewBox="0 0 24 24"
                          fill="none"
                          stroke="currentColor"
-                         stroke-width="2"
+                         stroke-width="1.8"
                          aria-hidden="true">
 
-                        <rect x="2" y="4" width="20" height="16" rx="2"/>
+                        <rect x="2"
+                              y="4"
+                              width="20"
+                              height="16"
+                              rx="2"/>
+
                         <path d="m2 7 10 7 10-7"/>
 
                     </svg>
@@ -233,6 +210,9 @@
                     <span>fportillolo@alumni.unav.es</span>
 
                 </a>
+
+
+                <div class="social-divider"></div>
 
 
                 <!-- ORCID -->
@@ -243,7 +223,17 @@
                    class="social-link"
                    aria-label="ORCID">
 
-                    <span class="text-icon">iD</span>
+                    <svg viewBox="0 0 24 24"
+                         fill="none"
+                         aria-hidden="true">
+
+                        <path d="M12 2.2a9.8 9.8 0 1 0 0 19.6 9.8 9.8 0 0 0 0-19.6Z"
+                              fill="currentColor"/>
+
+                        <path d="M8.3 7.2h1.2v9.6H8.3V7.2Zm3.1 0h2.6c2.9 0 4.7 1.8 4.7 4.8s-1.8 4.8-4.7 4.8h-2.6V7.2Zm1.2 1.1v7.4h1.3c2.1 0 3.6-1.3 3.6-3.7s-1.5-3.7-3.6-3.7h-1.3Z"
+                              fill="white"/>
+
+                    </svg>
 
                 </a>
 
@@ -253,29 +243,23 @@
                 <a href="https://scholar.google.es/citations?user=o-IwVyMAAAAJ&hl=en"
                    target="_blank"
                    rel="noopener noreferrer"
-                   class="social-link scholar-icon"
+                   class="social-link"
                    aria-label="Google Scholar">
 
-                    <span>GS</span>
-
-                </a>
-
-
-                <!-- LinkedIn -->
-
-                <a href="https://www.linkedin.com/in/franciscoportillolopez"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="social-link"
-                   aria-label="LinkedIn">
-
                     <svg viewBox="0 0 24 24"
-                         fill="currentColor"
+                         fill="none"
                          aria-hidden="true">
 
-                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-                        <rect x="2" y="9" width="4" height="12"/>
-                        <circle cx="4" cy="4" r="2"/>
+                        <path d="M12 3 2.5 9.3 12 15.6l9.5-6.3L12 3Z"
+                              fill="currentColor"/>
+
+                        <path d="M5.4 12.1v4.4c0 2.3 3 4.2 6.6 4.2s6.6-1.9 6.6-4.2v-4.4l-6.6 4.4-6.6-4.4Z"
+                              fill="currentColor"/>
+
+                        <path d="M21.2 9.2v6.4"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"/>
 
                     </svg>
 
@@ -301,6 +285,34 @@
                 </a>
 
 
+                <!-- LinkedIn -->
+
+                <a href="https://www.linkedin.com/in/franciscoportillolopez"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-link"
+                   aria-label="LinkedIn">
+
+                    <svg viewBox="0 0 24 24"
+                         fill="currentColor"
+                         aria-hidden="true">
+
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+
+                        <rect x="2"
+                              y="9"
+                              width="4"
+                              height="12"/>
+
+                        <circle cx="4"
+                                cy="4"
+                                r="2"/>
+
+                    </svg>
+
+                </a>
+
+
                 <!-- X -->
 
                 <a href="https://x.com/fportillolo"
@@ -319,557 +331,901 @@
 
                 </a>
 
+
+                <a href="FranciscoPortillo_CV.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="cv-link">
+
+                    CV <span>↗</span>
+
+                </a>
+
             </div>
 
         </div>
 
 
-        <!-- Portrait -->
+        <!-- PORTRAIT -->
 
-        <div class="hero-photo">
+        <div class="hero-photo reveal reveal-delay-2">
 
-            <img src="photo.jpg"
-                 alt="Portrait of Francisco Portillo"
-                 loading="eager">
+            <div class="photo-number">01</div>
+
+            <div class="photo-frame">
+
+                <img src="photo.jpg"
+                     alt="Francisco Portillo">
+
+            </div>
+
+            <div class="photo-caption">
+                Linguistics · Cognition · Computation
+            </div>
 
         </div>
 
-    </header>
+    </div>
+
+</header>
 
 
-    <!-- RESEARCH -->
+<!-- =========================
+     RESEARCH
+========================== -->
 
-    <section id="research">
+<section id="research">
 
-        <p class="section-label">Research</p>
+    <div class="section-heading">
 
-        <div class="research-intro">
+        <span class="section-number">01</span>
+
+        <div>
+            <p class="section-label">Research</p>
+            <h2>Questions at the boundary of<br><em>language and cognition.</em></h2>
+        </div>
+
+    </div>
+
+
+    <div class="research-intro">
+
+        <p>
+            I am interested in how humans acquire, represent, and process
+            language, and in what computational models can reveal about the
+            mechanisms underlying linguistic cognition.
+        </p>
+
+    </div>
+
+
+    <div class="interests-grid">
+
+        <article class="interest-cell">
+
+            <span class="interest-number">01</span>
+
+            <h3>Language Acquisition</h3>
 
             <p>
-                I am interested in how humans acquire, represent, and process
-                language, and in what computational models can reveal about the
-                mechanisms underlying linguistic cognition.
+                How children acquire language from limited input, with a focus
+                on predictive processing, cloze probability, and the
+                developmental trajectory of linguistic knowledge in
+                Spanish-speaking children.
+            </p>
+
+            <span class="cell-arrow">↗</span>
+
+        </article>
+
+
+        <article class="interest-cell">
+
+            <span class="interest-number">02</span>
+
+            <h3>Computational Models</h3>
+
+            <p>
+                Using large language models as computational probes of
+                linguistic behavior, examining where their predictions align
+                with human judgments and where systematic divergences emerge.
+            </p>
+
+            <span class="cell-arrow">↗</span>
+
+        </article>
+
+
+        <article class="interest-cell">
+
+            <span class="interest-number">03</span>
+
+            <h3>Neural Language Processing</h3>
+
+            <p>
+                The neural and cognitive architecture of language processing,
+                including EEG, MEG, and eye-tracking methodologies and the
+                relationship between predictive brain responses and
+                computational surprisal.
+            </p>
+
+            <span class="cell-arrow">↗</span>
+
+        </article>
+
+
+        <article class="interest-cell">
+
+            <span class="interest-number">04</span>
+
+            <h3>Multisensory Speech</h3>
+
+            <p>
+                Audiovisual integration in speech perception, including the
+                McGurk effect and the extent to which computational models
+                reproduce the stochastic nature of human perceptual fusion.
+            </p>
+
+            <span class="cell-arrow">↗</span>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PUBLICATIONS
+========================== -->
+
+<section id="publications">
+
+    <div class="section-heading">
+
+        <span class="section-number">02</span>
+
+        <div>
+            <p class="section-label">Selected Publications</p>
+            <h2>Research in <em>progress.</em></h2>
+        </div>
+
+    </div>
+
+
+    <div class="pub-list">
+
+        <article class="pub-item">
+
+            <span class="pub-year">2026</span>
+
+            <div class="pub-content">
+
+                <div class="pub-topline">
+
+                    <span class="pub-type">MANUSCRIPT</span>
+
+                    <span class="pub-status">
+                        Under Review
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Frequency Predicts Acquisition, Surprisal Predicts Reading:
+                    A Developmental Dissociation in Spanish
+                </h3>
+
+
+                <p class="pub-meta">
+                    Francisco Portillo · Manuscript submitted for publication
+                </p>
+
+
+                <p class="pub-description">
+                    Investigates the relationship between LLM surprisal,
+                    child-directed input frequency, and adult reading times,
+                    revealing a systematic developmental dissociation between
+                    early word learning and real-time language comprehension.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="pub-item">
+
+            <span class="pub-year">2026</span>
+
+            <div class="pub-content">
+
+                <div class="pub-topline">
+
+                    <span class="pub-type">PREPRINT</span>
+
+                    <span class="pub-status">
+                        Under Review
+                    </span>
+
+                </div>
+
+
+                <h3>
+
+                    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6844390"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        Artificial Rigidities vs. Biological Noise:
+                        A Comparative Analysis of Multisensory Integration
+                        in AV-HuBERT and Human Observers
+
+                        <span class="title-arrow">↗</span>
+
+                    </a>
+
+                </h3>
+
+
+                <p class="pub-meta">
+                    Francisco Portillo · SSRN Preprint
+                </p>
+
+
+                <p class="pub-description">
+                    Investigates whether AV-HuBERT replicates the McGurk effect
+                    in ways that parallel human audiovisual speech integration.
+                    Finds that the model mirrors auditory dominance under conflict
+                    but exhibits rigid fusion rates and lacks human-like
+                    perceptual stochasticity.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="pub-item">
+
+            <span class="pub-year">2025</span>
+
+            <div class="pub-content">
+
+                <div class="pub-topline">
+
+                    <span class="pub-type">PREPRINT</span>
+
+                    <span class="pub-status neutral">
+                        arXiv
+                    </span>
+
+                </div>
+
+
+                <h3>
+
+                    <a href="https://arxiv.org/abs/2511.01615"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        Imperfect Language, Artificial Intelligence,
+                        and the Human Mind: An Interdisciplinary Approach
+                        to Linguistic Errors in Native Spanish Speakers
+
+                        <span class="title-arrow">↗</span>
+
+                    </a>
+
+                </h3>
+
+
+                <p class="pub-meta">
+                    Francisco Portillo · arXiv:2511.01615
+                </p>
+
+
+                <p class="pub-description">
+                    Examines semantic and orthographic error correction patterns
+                    across GPT-4, Gemini, and LLaMA, comparing model behavior
+                    with that of native Spanish speakers and identifying
+                    systematic asymmetries between human and artificial
+                    linguistic processing.
+                </p>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EXPERIENCE
+========================== -->
+
+<section id="experience">
+
+    <div class="section-heading">
+
+        <span class="section-number">03</span>
+
+        <div>
+            <p class="section-label">Research Experience</p>
+            <h2>Learning through<br><em>research.</em></h2>
+        </div>
+
+    </div>
+
+
+    <div class="positions-list">
+
+
+        <article class="position-item">
+
+            <div class="position-period">
+                <span>2026</span>
+                <small>Present</small>
+            </div>
+
+
+            <div class="position-marker"></div>
+
+
+            <div class="position-content">
+
+                <h3>Harvard University</h3>
+
+                <p class="position-role">
+                    Research Intern — PhonLab
+                </p>
+
+                <p>
+                    Under the supervision of Dr. Kathryn Franich. Analysis of
+                    co-speech gesture data using ELAN, investigating the
+                    relationship between prosodic structure and multimodal
+                    communication.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="position-item">
+
+            <div class="position-period">
+                <span>2026</span>
+                <small>Present</small>
+            </div>
+
+
+            <div class="position-marker"></div>
+
+
+            <div class="position-content">
+
+                <h3>
+                    BCBL — Basque Center on Cognition, Brain and Language
+                </h3>
+
+                <p class="position-role">
+                    Research Intern — Infant Language &amp; Cognition
+                </p>
+
+                <p>
+                    Contributing to the WordLex project on early word acquisition.
+                    Combines theoretical reading in cloze probability, entropy,
+                    surprisal, and pseudoword processing with direct participation
+                    in live EEG and eye-tracking experiments with infant and child
+                    participants. Undergraduate thesis supervised by Dr. Olivera Savic.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="position-item">
+
+            <div class="position-period">
+                <span>2026</span>
+                <small>Present</small>
+            </div>
+
+
+            <div class="position-marker"></div>
+
+
+            <div class="position-content">
+
+                <h3>
+                    Max Planck Institute for Psycholinguistics
+                </h3>
+
+                <p class="position-role">
+                    Research Assistant — Language and Computation in Neural Systems
+                </p>
+
+                <p>
+                    Time-frequency analysis of prosodic timing using Continuous
+                    Wavelet Transform (CWT) in MATLAB, comparing German and French.
+                    Extensive reading in EEG and MEG methodology.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="position-item">
+
+            <div class="position-period">
+                <span>2026</span>
+                <small>Present</small>
+            </div>
+
+
+            <div class="position-marker"></div>
+
+
+            <div class="position-content">
+
+                <h3>University of Iowa</h3>
+
+                <p class="position-role">
+                    Research Assistant — Clinical Linguistics and Disparities Lab
+                </p>
+
+                <p>
+                    Transcription and phonetic analysis of child speech samples
+                    using Phon software. Behavioral acquisition data collection
+                    and annotation.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="position-item">
+
+            <div class="position-period">
+                <span>2025</span>
+                <small>2026</small>
+            </div>
+
+
+            <div class="position-marker"></div>
+
+
+            <div class="position-content">
+
+                <h3>Universidad de Navarra</h3>
+
+                <p class="position-role">
+                    Research Intern — Institute for Culture and Society
+                </p>
+
+                <p>
+                    Multimodal language analysis and transcription of recordings
+                    with ELAN and Praat as part of the MultiDeMe Project,
+                    exploring identity, memory, and emotion.
+                </p>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     METHODS
+========================== -->
+
+<section id="methods">
+
+    <div class="section-heading">
+
+        <span class="section-number">04</span>
+
+        <div>
+            <p class="section-label">Methods &amp; Tools</p>
+            <h2>From experiment<br>to <em>model.</em></h2>
+        </div>
+
+    </div>
+
+
+    <div class="methods-grid">
+
+        <div class="method-group">
+
+            <span class="method-index">01</span>
+
+            <h3>Experimental</h3>
+
+            <p>
+                EEG · MEG · Eye-tracking · Behavioral experiments
             </p>
 
         </div>
 
 
-        <div class="interests-grid">
+        <div class="method-group">
 
-            <article class="interest-cell">
+            <span class="method-index">02</span>
 
-                <span class="interest-number">01</span>
+            <h3>Speech &amp; Language</h3>
 
-                <h3>Language Acquisition</h3>
-
-                <p>
-                    How children acquire language from limited input, with a focus
-                    on predictive processing, cloze probability, and the
-                    developmental trajectory of linguistic knowledge in
-                    Spanish-speaking children.
-                </p>
-
-            </article>
-
-
-            <article class="interest-cell">
-
-                <span class="interest-number">02</span>
-
-                <h3>Computational Models</h3>
-
-                <p>
-                    Using large language models as computational probes of
-                    linguistic behavior, examining where their predictions align
-                    with human judgments and where systematic divergences emerge.
-                </p>
-
-            </article>
-
-
-            <article class="interest-cell">
-
-                <span class="interest-number">03</span>
-
-                <h3>Neural Language Processing</h3>
-
-                <p>
-                    The neural and cognitive architecture of language processing,
-                    including EEG, MEG, and eye-tracking methodologies and the
-                    relationship between predictive brain responses and
-                    computational surprisal.
-                </p>
-
-            </article>
-
-
-            <article class="interest-cell">
-
-                <span class="interest-number">04</span>
-
-                <h3>Multisensory Speech</h3>
-
-                <p>
-                    Audiovisual integration in speech perception, including the
-                    McGurk effect and the extent to which computational models
-                    reproduce the stochastic nature of human perceptual fusion.
-                </p>
-
-            </article>
+            <p>
+                ELAN · Praat · Phon · Phonetic analysis · Transcription
+            </p>
 
         </div>
 
-    </section>
 
+        <div class="method-group">
 
-    <!-- PUBLICATIONS -->
+            <span class="method-index">03</span>
 
-    <section id="publications">
+            <h3>Computational</h3>
 
-        <p class="section-label">Selected Publications</p>
-
-        <div class="pub-list">
-
-            <article class="pub-item">
-
-                <span class="pub-year">2026</span>
-
-                <div class="pub-content">
-
-                    <h3>
-                        Frequency Predicts Acquisition, Surprisal Predicts Reading:
-                        A Developmental Dissociation in Spanish
-                    </h3>
-
-                    <p class="pub-meta">
-                        Francisco Portillo · Manuscript submitted for publication
-                    </p>
-
-                    <div class="badges">
-
-                        <span class="pub-badge badge-review">
-                            Under Review
-                        </span>
-
-                    </div>
-
-                    <p class="pub-description">
-                        Investigates the relationship between LLM surprisal,
-                        child-directed input frequency, and adult reading times,
-                        revealing a developmental dissociation between early
-                        word learning and real-time language comprehension.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <article class="pub-item">
-
-                <span class="pub-year">2026</span>
-
-                <div class="pub-content">
-
-                    <h3>
-                        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6844390"
-                           target="_blank"
-                           rel="noopener noreferrer">
-
-                            Artificial Rigidities vs. Biological Noise:
-                            A Comparative Analysis of Multisensory Integration
-                            in AV-HuBERT and Human Observers
-
-                        </a>
-                    </h3>
-
-                    <p class="pub-meta">
-                        Francisco Portillo · SSRN Preprint
-                    </p>
-
-                    <div class="badges">
-
-                        <span class="pub-badge badge-review">
-                            Under Review
-                        </span>
-
-                        <span class="pub-badge badge-preprint">
-                            Preprint
-                        </span>
-
-                    </div>
-
-                    <p class="pub-description">
-                        Investigates whether AV-HuBERT replicates the McGurk effect
-                        in ways that parallel human audiovisual speech integration.
-                        Finds that the model mirrors auditory dominance under conflict
-                        but exhibits rigid fusion rates and lacks human-like
-                        perceptual stochasticity.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <article class="pub-item">
-
-                <span class="pub-year">2025</span>
-
-                <div class="pub-content">
-
-                    <h3>
-
-                        <a href="https://arxiv.org/abs/2511.01615"
-                           target="_blank"
-                           rel="noopener noreferrer">
-
-                            Imperfect Language, Artificial Intelligence,
-                            and the Human Mind: An Interdisciplinary Approach
-                            to Linguistic Errors in Native Spanish Speakers
-
-                        </a>
-
-                    </h3>
-
-                    <p class="pub-meta">
-                        Francisco Portillo · arXiv:2511.01615
-                    </p>
-
-                    <div class="badges">
-
-                        <span class="pub-badge badge-preprint">
-                            Preprint
-                        </span>
-
-                    </div>
-
-                    <p class="pub-description">
-                        Examines semantic and orthographic error correction patterns
-                        across GPT-4, Gemini, and LLaMA, comparing model behavior
-                        with that of native Spanish speakers and identifying
-                        systematic asymmetries between human and artificial
-                        linguistic processing.
-                    </p>
-
-                </div>
-
-            </article>
+            <p>
+                Python · MATLAB · NLP · LLMs · Computational modeling
+            </p>
 
         </div>
 
-    </section>
 
+        <div class="method-group">
 
-    <!-- EXPERIENCE -->
+            <span class="method-index">04</span>
 
-    <section id="experience">
+            <h3>Analysis</h3>
 
-        <p class="section-label">Research Experience</p>
-
-        <div class="positions-list">
-
-            <article class="position-item">
-
-                <span class="position-period">
-                    2026 — Present
-                </span>
-
-                <div class="position-content">
-
-                    <h3>Harvard University</h3>
-
-                    <p class="position-role">
-                        Research Intern — PhonLab
-                    </p>
-
-                    <p>
-                        Analysis of co-speech gesture data using ELAN, investigating
-                        relationships between prosodic structure and multimodal
-                        communication under the supervision of Dr. Kathryn Franich.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <article class="position-item">
-
-                <span class="position-period">
-                    2026 — Present
-                </span>
-
-                <div class="position-content">
-
-                    <h3>
-                        BCBL — Basque Center on Cognition,
-                        Brain and Language
-                    </h3>
-
-                    <p class="position-role">
-                        Research Intern — Infant Language & Cognition
-                    </p>
-
-                    <p>
-                        Contributing to the WordLex project on early word acquisition,
-                        with work on cloze probability, entropy, surprisal,
-                        pseudoword processing, EEG, and eye-tracking.
-                        Undergraduate thesis supervised by Dr. Olivera Savic.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <article class="position-item">
-
-                <span class="position-period">
-                    2026 — Present
-                </span>
-
-                <div class="position-content">
-
-                    <h3>
-                        Max Planck Institute for Psycholinguistics
-                    </h3>
-
-                    <p class="position-role">
-                        Research Assistant — Language and Computation in Neural Systems
-                    </p>
-
-                    <p>
-                        Time-frequency analysis of prosodic timing using Continuous
-                        Wavelet Transform in MATLAB, comparing German and French,
-                        alongside work on EEG and MEG methodology.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <article class="position-item">
-
-                <span class="position-period">
-                    2026 — Present
-                </span>
-
-                <div class="position-content">
-
-                    <h3>University of Iowa</h3>
-
-                    <p class="position-role">
-                        Research Assistant — Clinical Linguistics and Disparities Lab
-                    </p>
-
-                    <p>
-                        Transcription and phonetic analysis of child speech samples
-                        using Phon, together with behavioral acquisition data
-                        collection and annotation.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <article class="position-item">
-
-                <span class="position-period">
-                    Oct 2025 — Jun 2026
-                </span>
-
-                <div class="position-content">
-
-                    <h3>Universidad de Navarra</h3>
-
-                    <p class="position-role">
-                        Research Intern — Institute for Culture and Society
-                    </p>
-
-                    <p>
-                        Multimodal language analysis and transcription using ELAN
-                        and Praat as part of the MultiDeMe Project, exploring
-                        identity, memory, and emotion.
-                    </p>
-
-                </div>
-
-            </article>
+            <p>
+                Surprisal · Entropy · Cloze probability · Time-frequency analysis
+            </p>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- METHODS -->
+<!-- =========================
+     PRESENTATIONS
+========================== -->
 
-    <section id="methods">
+<section id="talks">
 
-        <p class="section-label">Methods & Tools</p>
+    <div class="section-heading">
 
-        <div class="methods-grid">
+        <span class="section-number">05</span>
 
-            <div class="method-group">
+        <div>
+            <p class="section-label">Presentations</p>
+            <h2>Sharing <em>ideas.</em></h2>
+        </div>
 
-                <h3>Experimental</h3>
+    </div>
+
+
+    <div class="talks-list">
+
+
+        <article class="talk-item">
+
+            <span class="talk-year">2026</span>
+
+            <div class="talk-content">
+
+                <span class="talk-type">
+                    Oral Presentation
+                </span>
+
+                <h3>
+                    Normative Hallucinations: AI's Inability to Process
+                    the Cognitive Architecture of Spanish in the U.S.
+                </h3>
 
                 <p>
-                    EEG · MEG · Eye-tracking · Behavioral experiments
+                    XI International Symposium, Instituto Cervantes ·
+                    Harvard University Observatory
                 </p>
 
             </div>
 
+        </article>
 
-            <div class="method-group">
 
-                <h3>Speech & Language</h3>
+        <article class="talk-item">
+
+            <span class="talk-year">2026</span>
+
+            <div class="talk-content">
+
+                <span class="talk-type">
+                    Oral Presentation
+                </span>
+
+                <h3>
+                    Imperfect Language, Artificial Intelligence, and the
+                    Human Mind: An Interdisciplinary Approach to Linguistic
+                    Errors in Native Spanish Speakers
+                </h3>
 
                 <p>
-                    ELAN · Praat · Phon · Phonetic analysis · Transcription
+                    Maryland Hispanic Applied Linguistics Conference (MHALC 26) ·
+                    University of Maryland
                 </p>
 
             </div>
 
+        </article>
 
-            <div class="method-group">
 
-                <h3>Computational</h3>
+        <article class="talk-item">
+
+            <span class="talk-year">2026</span>
+
+            <div class="talk-content">
+
+                <span class="talk-type">
+                    Oral Presentation
+                </span>
+
+                <h3>
+                    Lenguaje imperfecto, Inteligencia Artificial y la mente
+                    humana: un enfoque interdisciplinario de los errores
+                    lingüísticos en hablantes nativos de español
+                </h3>
 
                 <p>
-                    Python · MATLAB · NLP · LLMs · Computational modeling
+                    XXIII Jornada Internacional de la Delegación de Venezuela
+                    ante la ALFAL · IVILLAB
                 </p>
 
             </div>
 
+        </article>
 
-            <div class="method-group">
+    </div>
 
-                <h3>Analysis</h3>
-
-                <p>
-                    Surprisal · Entropy · Cloze probability · Time-frequency analysis
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
+</section>
 
 
-    <!-- PRESENTATIONS -->
+<!-- =========================
+     CLOSING
+========================== -->
 
-    <section id="talks">
+<section class="closing">
 
-        <p class="section-label">Presentations</p>
+    <div class="closing-inner">
 
-        <div class="talks-list">
+        <p class="closing-label">
+            Researching language from multiple angles.
+        </p>
 
-            <article class="talk-item">
+        <h2>
+            Language is the question.<br>
+            <em>Computation is one way in.</em>
+        </h2>
 
-                <span class="talk-year">2026</span>
+        <a href="mailto:fportillolo@alumni.unav.es"
+           class="closing-link">
 
-                <div class="talk-content">
+            Get in touch
+            <span>↗</span>
 
-                    <h3>
-                        Normative Hallucinations: AI's Inability to Process
-                        the Cognitive Architecture of Spanish in the U.S.
-                    </h3>
+        </a>
 
-                    <p>
-                        <span class="talk-type">Oral</span>
-                        XI International Symposium, Instituto Cervantes ·
-                        Harvard University Observatory
-                    </p>
+    </div>
 
-                </div>
-
-            </article>
-
-
-            <article class="talk-item">
-
-                <span class="talk-year">2026</span>
-
-                <div class="talk-content">
-
-                    <h3>
-                        Imperfect Language, Artificial Intelligence, and the
-                        Human Mind: An Interdisciplinary Approach to Linguistic
-                        Errors in Native Spanish Speakers
-                    </h3>
-
-                    <p>
-                        <span class="talk-type">Oral</span>
-                        Maryland Hispanic Applied Linguistics Conference (MHALC 26) ·
-                        University of Maryland
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <article class="talk-item">
-
-                <span class="talk-year">2026</span>
-
-                <div class="talk-content">
-
-                    <h3>
-                        Lenguaje imperfecto, Inteligencia Artificial y la mente
-                        humana: un enfoque interdisciplinario de los errores
-                        lingüísticos en hablantes nativos de español
-                    </h3>
-
-                    <p>
-                        <span class="talk-type">Oral</span>
-                        XXIII Jornada Internacional de la Delegación de Venezuela
-                        ante la ALFAL · IVILLAB
-                    </p>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </section>
+</section>
 
 </main>
 
 
+<!-- =========================
+     FOOTER
+========================== -->
+
 <footer>
 
-    <p>
+    <div class="footer-left">
         © 2026 Francisco Portillo
-        <span>·</span>
-        <a href="mailto:fportillolo@alumni.unav.es">
-            fportillolo@alumni.unav.es
+    </div>
+
+    <div class="footer-right">
+
+        <a href="https://orcid.org/0009-0001-2580-5177"
+           target="_blank"
+           rel="noopener noreferrer">
+            ORCID
         </a>
-    </p>
+
+        <a href="https://scholar.google.es/citations?user=o-IwVyMAAAAJ&hl=en"
+           target="_blank"
+           rel="noopener noreferrer">
+            Google Scholar
+        </a>
+
+        <a href="mailto:fportillolo@alumni.unav.es">
+            Email
+        </a>
+
+    </div>
 
 </footer>
 
 
+<!-- =========================
+     JAVASCRIPT
+========================== -->
+
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
 
-        const reveals = document.querySelectorAll(".hero-reveal");
+    /* -------------------------
+       NAVBAR SCROLL EFFECT
+    ------------------------- */
 
-        requestAnimationFrame(() => {
-            reveals.forEach((element) => {
-                element.classList.add("is-visible");
-            });
-        });
+    const navbar = document.getElementById("navbar");
+
+    window.addEventListener("scroll", () => {
+
+        if (window.scrollY > 40) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        }
 
     });
+
+
+    /* -------------------------
+       SCROLL PROGRESS
+    ------------------------- */
+
+    const progress = document.querySelector(".scroll-progress");
+
+    window.addEventListener("scroll", () => {
+
+        const scrollTop = window.scrollY;
+
+        const documentHeight =
+            document.documentElement.scrollHeight -
+            window.innerHeight;
+
+        const percentage =
+            documentHeight > 0
+                ? (scrollTop / documentHeight) * 100
+                : 0;
+
+        progress.style.width = percentage + "%";
+
+    });
+
+
+    /* -------------------------
+       REVEAL ON SCROLL
+    ------------------------- */
+
+    const revealElements =
+        document.querySelectorAll(
+            ".section-heading, .research-intro, .interest-cell, .pub-item, .position-item, .method-group, .talk-item, .closing-inner"
+        );
+
+
+    const revealObserver = new IntersectionObserver(
+        (entries, observer) => {
+
+            entries.forEach(entry => {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add("visible");
+
+                    observer.unobserve(entry.target);
+
+                }
+
+            });
+
+        },
+        {
+            threshold: 0.12
+        }
+    );
+
+
+    revealElements.forEach(element => {
+
+        element.classList.add("scroll-reveal");
+
+        revealObserver.observe(element);
+
+    });
+
+
+    /* -------------------------
+       ACTIVE NAVIGATION
+    ------------------------- */
+
+    const sections =
+        document.querySelectorAll("main section[id]");
+
+    const navLinks =
+        document.querySelectorAll(
+            ".nav-links a[data-section]"
+        );
+
+
+    const sectionObserver = new IntersectionObserver(
+        entries => {
+
+            entries.forEach(entry => {
+
+                if (entry.isIntersecting) {
+
+                    navLinks.forEach(link => {
+
+                        link.classList.remove("active");
+
+                    });
+
+
+                    const activeLink =
+                        document.querySelector(
+                            `.nav-links a[data-section="${entry.target.id}"]`
+                        );
+
+
+                    if (activeLink) {
+                        activeLink.classList.add("active");
+                    }
+
+                }
+
+            });
+
+        },
+        {
+            rootMargin: "-35% 0px -55% 0px"
+        }
+    );
+
+
+    sections.forEach(section => {
+
+        sectionObserver.observe(section);
+
+    });
+
+
+    /* -------------------------
+       REDUCED MOTION
+    ------------------------- */
+
+    if (
+        window.matchMedia(
+            "(prefers-reduced-motion: reduce)"
+        ).matches
+    ) {
+
+        document.documentElement.style.scrollBehavior = "auto";
+
+    }
+
 </script>
-```
 
 </body>
-
 </html>
