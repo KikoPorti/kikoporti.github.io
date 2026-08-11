@@ -300,6 +300,98 @@ button:focus-visible {
 
 .contact-row {
   display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1.5rem;
+}
+
+.social-icon {
+  width: 34px;
+  height: 34px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+
+  background: var(--white);
+  color: var(--soft);
+
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.social-icon svg {
+  width: 15px;
+  height: 15px;
+}
+
+.social-icon:hover {
+  color: var(--white);
+  background: var(--accent);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+/* ORCID */
+.orcid-icon span {
+  font-family: Arial, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+/* Google Scholar */
+.scholar-icon span {
+  font-family: Arial, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+/* Email */
+.email-icon:hover {
+  background: #b85c38;
+  border-color: #b85c38;
+}
+
+/* ORCID */
+.orcid-icon:hover {
+  background: #a6ce39;
+  border-color: #a6ce39;
+}
+
+/* Google Scholar */
+.scholar-icon:hover {
+  background: #4285f4;
+  border-color: #4285f4;
+}
+
+/* LinkedIn */
+.linkedin-icon:hover {
+  background: #0a66c2;
+  border-color: #0a66c2;
+}
+
+/* GitHub */
+.github-icon:hover {
+  background: #24292f;
+  border-color: #24292f;
+}
+
+/* X */
+.x-icon:hover {
+  background: #000;
+  border-color: #000;
+}
+.contact-row {
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 8px;
