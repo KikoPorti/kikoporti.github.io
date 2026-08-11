@@ -1,38 +1,58 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Francisco Portillo — Linguistics, Cognitive Science & AI</title>
+```
+<title>Francisco Portillo — Linguistics, Cognitive Science & AI</title>
 
-    <meta name="description" content="Francisco Portillo — undergraduate researcher working at the intersection of language acquisition, neurolinguistics, cognitive science, and computational linguistics.">
-    <meta name="author" content="Francisco Portillo">
+<meta name="description"
+    content="Francisco Portillo — undergraduate researcher working at the intersection of language acquisition, neurolinguistics, cognitive science, and computational linguistics.">
 
-    <meta property="og:title" content="Francisco Portillo — Linguistics, Cognitive Science & AI">
-    <meta property="og:description" content="Research in language acquisition, neurolinguistics, cognitive science, and computational linguistics.">
-    <meta property="og:type" content="website">
+<meta name="author" content="Francisco Portillo">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta property="og:title"
+    content="Francisco Portillo — Linguistics, Cognitive Science & AI">
 
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta property="og:description"
+    content="Research in language acquisition, neurolinguistics, cognitive science, and computational linguistics.">
 
-    <link rel="stylesheet" href="style.css">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+```
+
 </head>
 
 <body>
 
-<nav class="navbar">
-    <a class="nav-name" href="#top">Francisco Portillo</a>
+```
+<nav class="navbar" aria-label="Main navigation">
+
+    <a class="nav-name" href="#top">
+        Francisco Portillo
+    </a>
 
     <div class="nav-links">
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
         <a href="#experience">Experience</a>
         <a href="#talks">Talks</a>
-        <a href="FranciscoPortillo_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        <a href="FranciscoPortillo_CV.pdf" target="_blank" rel="noopener noreferrer">
+            CV
+        </a>
     </div>
+
 </nav>
 
 
@@ -72,6 +92,7 @@
                 divergence from, human behavior reveals about the cognitive
                 architecture of language.
             </p>
+
 
             <!-- Research trajectory -->
 
@@ -149,6 +170,7 @@
                     </a>
 
                 </div>
+
             </div>
 
 
@@ -193,8 +215,6 @@
             <!-- Contact / Social -->
 
             <div class="contact-row hero-reveal reveal-7">
-
-                <!-- Email -->
 
                 <a href="mailto:fportillolo@alumni.unav.es"
                    class="contact-link">
@@ -297,7 +317,7 @@
 
                     </svg>
 
-            
+                </a>
 
             </div>
 
@@ -309,7 +329,8 @@
         <div class="hero-photo">
 
             <img src="photo.jpg"
-                 alt="Francisco Portillo">
+                 alt="Portrait of Francisco Portillo"
+                 loading="eager">
 
         </div>
 
@@ -425,9 +446,11 @@
                     </p>
 
                     <div class="badges">
+
                         <span class="pub-badge badge-review">
                             Under Review
                         </span>
+
                     </div>
 
                     <p class="pub-description">
@@ -465,6 +488,7 @@
                     </p>
 
                     <div class="badges">
+
                         <span class="pub-badge badge-review">
                             Under Review
                         </span>
@@ -472,6 +496,7 @@
                         <span class="pub-badge badge-preprint">
                             Preprint
                         </span>
+
                     </div>
 
                     <p class="pub-description">
@@ -494,6 +519,7 @@
                 <div class="pub-content">
 
                     <h3>
+
                         <a href="https://arxiv.org/abs/2511.01615"
                            target="_blank"
                            rel="noopener noreferrer">
@@ -503,6 +529,7 @@
                             to Linguistic Errors in Native Spanish Speakers
 
                         </a>
+
                     </h3>
 
                     <p class="pub-meta">
@@ -510,9 +537,11 @@
                     </p>
 
                     <div class="badges">
+
                         <span class="pub-badge badge-preprint">
                             Preprint
                         </span>
+
                     </div>
 
                     <p class="pub-description">
@@ -684,31 +713,46 @@
         <div class="methods-grid">
 
             <div class="method-group">
+
                 <h3>Experimental</h3>
+
                 <p>
                     EEG · MEG · Eye-tracking · Behavioral experiments
                 </p>
+
             </div>
 
+
             <div class="method-group">
+
                 <h3>Speech & Language</h3>
+
                 <p>
                     ELAN · Praat · Phon · Phonetic analysis · Transcription
                 </p>
+
             </div>
 
+
             <div class="method-group">
+
                 <h3>Computational</h3>
+
                 <p>
                     Python · MATLAB · NLP · LLMs · Computational modeling
                 </p>
+
             </div>
 
+
             <div class="method-group">
+
                 <h3>Analysis</h3>
+
                 <p>
                     Surprisal · Entropy · Cloze probability · Time-frequency analysis
                 </p>
+
             </div>
 
         </div>
@@ -812,17 +856,20 @@
 
 
 <script>
-    // Subtle reveal animations
     document.addEventListener("DOMContentLoaded", () => {
 
         const reveals = document.querySelectorAll(".hero-reveal");
 
-        reveals.forEach((element) => {
-            element.classList.add("is-visible");
+        requestAnimationFrame(() => {
+            reveals.forEach((element) => {
+                element.classList.add("is-visible");
+            });
         });
 
     });
 </script>
+```
 
 </body>
+
 </html>
