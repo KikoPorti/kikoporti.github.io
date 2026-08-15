@@ -2462,6 +2462,21 @@ html[data-theme="dark"] ::selection {
     background: #2a3b55;
     color: #ffffff;
 }
+
+   .read-more-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.read-more-link:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
    
 
 }
