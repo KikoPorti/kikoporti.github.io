@@ -1,1371 +1,2689 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+/* =========================================================
+   FRANCISCO PORTILLO
+   Academic Research Website — "Espectrograma"
+   ========================================================= */
 
-    <title>Francisco Portillo — Linguistics, Cognitive Science & AI</title>
 
-    <meta name="description"
-          content="Francisco Portillo — undergraduate researcher working at the intersection of language acquisition, neurolinguistics, cognitive science, and computational linguistics.">
+/* =========================================================
+   RESET
+   ========================================================= */
 
-    <meta name="author" content="Francisco Portillo">
-
-    <meta property="og:title"
-          content="Francisco Portillo — Linguistics, Cognitive Science & AI">
-    <meta property="og:description"
-          content="Research in language acquisition, neurolinguistics, cognitive science, and computational linguistics.">
-    <meta property="og:type" content="website">
-
-    <meta name="theme-color" content="#faf9f7">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap"
-          rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-
-    <!-- SEO Académico: Datos Estructurados -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Francisco Portillo López",
-  "jobTitle": "Undergraduate Researcher in Linguistics",
-  "affiliation": [
-    { "@type": "Organization", "name": "Universidad de Navarra" },
-    { "@type": "Organization", "name": "BCBL - Basque Center on Cognition, Brain and Language" },
-    { "@type": "Organization", "name": "Harvard University" },
-    { "@type": "Organization", "name": "Max Planck Institute for Psycholinguistics" },
-    { "@type": "Organization", "name": "University of Iowa" }
-  ],
-  "sameAs": [
-    "https://orcid.org/0009-0001-2580-5177",
-    "https://scholar.google.es/citations?user=o-IwVyMAAAAJ&hl=en",
-    "https://www.linkedin.com/in/franciscoportillolopez"
-  ],
-  "description": "Undergraduate researcher working at the intersection of language acquisition, neurolinguistics, cognitive science, and computational linguistics."
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-</script>
-    <!-- SEO: Etiqueta Canonical -->
-<link rel="canonical" href="https://kikoporti.github.io/" />
-</head>
 
-<body>
 
-<!-- =========================
-     PAGE PROGRESS
-========================== -->
-
-<div class="scroll-progress" aria-hidden="true"></div>
-
-
-<!-- =========================
-     NAVIGATION
-========================== -->
-
-<nav class="navbar" id="navbar">
-
-    <a class="nav-name" href="#top">
-        Francisco Portillo
-    </a>
-
-    <div class="nav-links">
-
-        <a href="#research" data-section="research">Research</a>
-
-        <a href="#news" data-section="news">
-    News
-</a>
-
-        <a href="#publications" data-section="publications">
-            Publications
-        </a>
-
-        <a href="#experience" data-section="experience">
-            Experience
-        </a>
-
-        <a href="#talks" data-section="talks">
-            Talks
-        </a>
-        <!-- Botón de Dark Mode -->
-
-
-        <a href="FranciscoPortillo_CV.pdf"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="nav-cv">
-            CV ↗
-        </a>
-
-    </div>
-
-</nav>
-
-
-<main id="top">
-
-<!-- =========================
-     HERO
-========================== -->
-
-<header class="hero">
-
-    <div class="hero-grid">
-
-        <div class="hero-text">
-
-            <div class="hero-kicker reveal">
-                <span class="status-dot"></span>
-                Linguistics · Computational Linguistics · Cognitive Science
-            </div>
-
-
-            <h1 class="reveal reveal-delay-1">
-                Francisco<br>
-                <span>Portillo</span>
-            </h1>
-
-
-            <p class="hero-role reveal reveal-delay-2">
-                Undergraduate Researcher
-            </p>
-
-
-            <p class="intro reveal reveal-delay-2">
-
-                Fourth-year undergraduate in Linguistics at
-                <a href="https://www.unav.edu/"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="institution-link">
-                    Universidad de Navarra
-                </a>.
-
-            </p>
-
-
-            <p class="research-statement reveal reveal-delay-3">
-
-                My research sits at the intersection of
-                <strong>language acquisition</strong>,
-                <strong>computational linguistics</strong>, and
-                <strong>neurolinguistics</strong>.
-
-                I use computational models (particularly large language models)
-                as experimental mirrors to study what their alignment with, and
-                divergence from, human behavior reveals about the cognitive
-                architecture of language.
-
-            </p>
-
-
-            <!-- CURRENT RESEARCH -->
-
-            <div class="current-work reveal reveal-delay-4">
-
-                <div class="current-work-header">
-
-                    <span class="current-line"></span>
-
-                    <p>Currently working with</p>
-
-                </div>
-
-
-                <div class="institution-list">
-                     <a href="https://www.bcbl.eu/en/research/research-groups/infant-language-cognition"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        BCBL
-                        <span>↗</span>
-                    </a>
-
-                    <a href="https://sites.harvard.edu/phonlab/"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        Harvard Phonetics Laboratory
-                        <span>↗</span>
-                    </a>
-
-                    <a href="https://www.mpi.nl/department/language-and-computation-neural-systems/19"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        Max Planck Institute for Psycholinguistics
-                        <span>↗</span>
-                    </a>
-
-                    <a href="https://cld.lab.uiowa.edu/"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        University of Iowa
-                        <span>↗</span>
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <!-- SOCIAL / ACADEMIC LINKS -->
-
-            <div class="contact-row reveal reveal-delay-4">
-
-                <!-- Email -->
-
-                <a href="mailto:fportillolo@alumni.unav.es"
-                   class="contact-link email-link"
-                   aria-label="Email Francisco Portillo">
-
-                    <svg viewBox="0 0 24 24"
-                         fill="none"
-                         stroke="currentColor"
-                         stroke-width="1.8"
-                         aria-hidden="true">
-
-                        <rect x="2"
-                              y="4"
-                              width="20"
-                              height="16"
-                              rx="2"/>
-
-                        <path d="m2 7 10 7 10-7"/>
-
-                    </svg>
-
-                    <span>fportillolo@alumni.unav.es</span>
-
-                </a>
-
-
-                <div class="social-divider"></div>
-
-
-                <!-- ORCID -->
-
-                <a href="https://orcid.org/0009-0001-2580-5177"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="social-link"
-                   aria-label="ORCID">
-
-                    <svg viewBox="0 0 24 24"
-                         fill="none"
-                         aria-hidden="true">
-
-                        <path d="M12 2.2a9.8 9.8 0 1 0 0 19.6 9.8 9.8 0 0 0 0-19.6Z"
-                              fill="currentColor"/>
-
-                        <path d="M8.3 7.2h1.2v9.6H8.3V7.2Zm3.1 0h2.6c2.9 0 4.7 1.8 4.7 4.8s-1.8 4.8-4.7 4.8h-2.6V7.2Zm1.2 1.1v7.4h1.3c2.1 0 3.6-1.3 3.6-3.7s-1.5-3.7-3.6-3.7h-1.3Z"
-                              fill="white"/>
-
-                    </svg>
-
-                </a>
-
-
-                <!-- Google Scholar -->
-
-                <a href="https://scholar.google.es/citations?user=o-IwVyMAAAAJ&hl=en"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="social-link"
-                   aria-label="Google Scholar">
-
-                    <svg viewBox="0 0 24 24"
-                         fill="none"
-                         aria-hidden="true">
-
-                        <path d="M12 3 2.5 9.3 12 15.6l9.5-6.3L12 3Z"
-                              fill="currentColor"/>
-
-                        <path d="M5.4 12.1v4.4c0 2.3 3 4.2 6.6 4.2s6.6-1.9 6.6-4.2v-4.4l-6.6 4.4-6.6-4.4Z"
-                              fill="currentColor"/>
-
-                        <path d="M21.2 9.2v6.4"
-                              stroke="currentColor"
-                              stroke-width="1.5"
-                              stroke-linecap="round"/>
-
-                    </svg>
-
-                </a>
-
-
-                <!-- GitHub -->
-
-                <a href="https://github.com/kikoporti"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="social-link"
-                   aria-label="GitHub">
-
-                    <svg viewBox="0 0 24 24"
-                         fill="currentColor"
-                         aria-hidden="true">
-
-                        <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.38 7.86 10.9.58.1.79-.25.79-.55v-2.12c-3.2.7-3.87-1.54-3.87-1.54-.53-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.77.11 3.06.73.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.4-5.25 5.68.41.35.78 1.05.78 2.12v3.14c0 .3.21.66.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
-
-                    </svg>
-
-                </a>
-
-
-                <!-- LinkedIn -->
-
-                <a href="https://www.linkedin.com/in/franciscoportillolopez"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="social-link"
-                   aria-label="LinkedIn">
-
-                    <svg viewBox="0 0 24 24"
-                         fill="currentColor"
-                         aria-hidden="true">
-
-                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-
-                        <rect x="2"
-                              y="9"
-                              width="4"
-                              height="12"/>
-
-                        <circle cx="4"
-                                cy="4"
-                                r="2"/>
-
-                    </svg>
-
-                </a>
-
-
-                <!-- X -->
-
-                <a href="https://x.com/fportillolo"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="social-link"
-                   aria-label="X">
-
-                    <svg viewBox="0 0 24 24"
-                         fill="currentColor"
-                         aria-hidden="true">
-
-                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817-5.963 6.817H1.684l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 3.823H5.117L17.083 19.77Z"/>
-
-                    </svg>
-
-                </a>
-
-
-                <a href="FranciscoPortillo_CV.pdf"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="cv-link">
-
-                    CV <span>↗</span>
-
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <!-- PORTRAIT -->
-
-        <div class="hero-photo reveal reveal-delay-2">
-
-            <div class="photo-number">01</div>
-
-            <div class="photo-frame">
-
-                <img src="photo.jpg"
-                     alt="Francisco Portillo">
-
-            </div>
-
-            <div class="photo-caption">
-                Linguistics · Computation · Cognition
-            </div>
-
-        </div>
-
-    </div>
-
-</header>
-
-
-<!-- =========================
-     RESEARCH
-========================== -->
-
-<section id="research">
-
-    <div class="section-heading">
-
-        <span class="section-number">01</span>
-
-        <div>
-            <p class="section-label">Research</p>
-            <h2>Questions at the boundary of<br><em>language and cognition.</em></h2>
-        </div>
-
-    </div>
-
-
-    <div class="research-intro">
-
-        <p>
-            I am interested in how humans acquire, represent, and process
-            language, and in what computational models can reveal about the
-            mechanisms underlying linguistic cognition.
-        </p>
-
-    </div>
-
-
-    <div class="interests-grid">
-
-        <article class="interest-cell">
-
-            <span class="interest-number">01</span>
-
-            <h3>Language Acquisition</h3>
-
-            <p>
-                How children acquire language from limited input, with a focus
-                on predictive processing, cloze probability, and the
-                developmental trajectory of linguistic knowledge in
-                Spanish-speaking children.
-            </p>
-
-            <span class="cell-arrow">↗</span>
-
-        </article>
-
-
-        <article class="interest-cell">
-
-            <span class="interest-number">02</span>
-
-            <h3>Computational Models</h3>
-
-            <p>
-                Using large language models as computational probes of
-                linguistic behavior, examining where their predictions align
-                with human judgments and where systematic divergences emerge.
-            </p>
-
-            <span class="cell-arrow">↗</span>
-
-        </article>
-
-
-        <article class="interest-cell">
-
-            <span class="interest-number">03</span>
-
-            <h3>Neural Language Processing</h3>
-
-            <p>
-                The neural and cognitive architecture of language processing,
-                including EEG, MEG, and eye-tracking methodologies and the
-                relationship between predictive brain responses and
-                computational surprisal.
-            </p>
-
-            <span class="cell-arrow">↗</span>
-
-        </article>
-
-
-        <article class="interest-cell">
-
-            <span class="interest-number">04</span>
-
-            <h3>Multisensory Speech</h3>
-
-            <p>
-                Audiovisual integration in speech perception, including the
-                McGurk effect and the extent to which computational models
-                reproduce the stochastic nature of human perceptual fusion.
-            </p>
-
-            <span class="cell-arrow">↗</span>
-
-        </article>
-
-    </div>
-
-</section>
-
-<!-- =========================
-     NEWS & UPDATES
-========================== -->
-
-<section id="news">
-
-<div class="section-heading">
-
-    <span class="section-number">02</span>
-
-    <div>
-        <p class="section-label">What I've been working on</p>
-        <h2>News<br><em>&amp; Updates </em><span class="confetti" aria-hidden="true">🎉</span></h2>
-    </div>
-
-</div>
-
-
-
-    <article class="news-item" style="margin-bottom: 4rem;">
-
-        <span class="news-date"><em>June 2026</em></span>
-
-        <div class="news-content">
-
-            <h3>
-                <span class="emoji" aria-hidden="true">🧠</span> Joined BCBL as Research Intern!
-            </h3>
-
-            <p>
-                I started working at BCBL's Infant Language &amp; Cognition group.
-            </p>
-
-        
-    </article>
-
-    <article class="news-item" style="margin-bottom: 4rem;">
-
-        <span class="news-date"><em>June 2026</em></span>
-
-
-            <h3>
-                <span class="emoji" aria-hidden="true">🗣️</span> Joined Harvard University as Research Intern!
-            </h3>
-
-            <p>
-                I started working with Harvard's PhonLab.
-            </p>
-
-
-         
-    </article>
-
-
-    <article class="news-item" style="margin-bottom: 4rem;">
-
-        <span class="news-date"><em>June 2026</em></span>
-
-
-            <h3>
-                <span class="emoji" aria-hidden="true">📄</span> Presented research at Instituto Cervantes (Harvard University)
-            </h3>
-
-            <p>
-                Presented <em>Normative Hallucinations: AI's Inability to
-                Process the Cognitive Architecture of Spanish in the U.S.</em>
-                at the XI International Symposium, Instituto Cervantes ·
-                Harvard University Observatory.
-            </p>
-
-
-        
-    </article>
-
-
-    <article class="news-item" style="margin-bottom: 4rem;">
-
-        <span class="news-date"><em>March 2026</em></span>
-
-
-            <h3>
-                <span class="emoji" aria-hidden="true">🎓</span> Joined Max Planck Institute for Psycholinguistics as Research Assistant!
-            </h3>
-
-            <p>
-                I started working at Language and Computation in Neural Systems group.
-            </p>
-
-
-    </article>
-
-
-</div>
-
-</section>
-
-    
-<!-- =========================
-     PUBLICATIONS
-========================== -->
-
-<section id="publications">
-
-    <div class="section-heading">
-
-        <span class="section-number">03</span>
-
-        <div>
-            <p class="section-label">Selected Publications</p>
-            <h2>Research in <em>progress.</em></h2>
-        </div>
-
-    </div>
-
-
-    <div class="pub-list">
-
-        <article class="pub-item">
-
-            <span class="pub-year">August 2026</span>
-
-            <div class="pub-content">
-
-                <div class="pub-topline">
-
-                    <span class="pub-type">MANUSCRIPT</span>
-
-                    <span class="pub-status">
-                        Under Review
-                    </span>
-
-                </div>
-
-
-                <h3>
-                    Frequency Predicts Acquisition, Surprisal Predicts Reading:
-                    A Dissociation Across Language Learning and Processing in Spanish
-                </h3>
-
-
-                <p class="pub-meta">
-                    Francisco Portillo · Manuscript submitted for publication
-                </p>
-
-
-                <p class="pub-description">
-                    Investigates the relationship between LLM surprisal,
-                    child-directed input frequency, and adult reading times,
-                    revealing a systematic developmental dissociation between
-                    early word learning and real-time language comprehension.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <article class="pub-item">
-
-            <span class="pub-year">February 2026</span>
-
-            <div class="pub-content">
-
-                <div class="pub-topline">
-
-                    <span class="pub-type">PREPRINT</span>
-
-                    <span class="pub-status">
-                        Under Review
-                    </span>
-
-                </div>
-
-
-                <h3>
-
-                    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6844390"
-                       target="_blank"
-                       rel="noopener noreferrer">
-
-                        Artificial Rigidities vs. Biological Noise:
-                        A Comparative Analysis of Multisensory Integration
-                        in AV-HuBERT and Human Observers
-
-                        <span class="title-arrow">↗</span>
-
-                    </a>
-
-                </h3>
-
-
-                <p class="pub-meta">
-                    Francisco Portillo · SSRN Preprint
-                </p>
-
-
-                <p class="pub-description">
-                    Investigates whether AV-HuBERT replicates the McGurk effect
-                    in ways that parallel human audiovisual speech integration.
-                    Finds that the model mirrors auditory dominance under conflict
-                    but exhibits rigid fusion rates and lacks human-like
-                    perceptual stochasticity.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <article class="pub-item">
-
-            <span class="pub-year">November 2025</span>
-
-            <div class="pub-content">
-
-                <div class="pub-topline">
-
-                    <span class="pub-type">PREPRINT</span>
-
-                    <span class="pub-status neutral">
-                        arXiv
-                    </span>
-
-                </div>
-
-
-                <h3>
-
-                    <a href="https://arxiv.org/abs/2511.01615"
-                       target="_blank"
-                       rel="noopener noreferrer">
-
-                        Imperfect Language, Artificial Intelligence,
-                        and the Human Mind: An Interdisciplinary Approach
-                        to Linguistic Errors in Native Spanish Speakers
-
-                        <span class="title-arrow">↗</span>
-
-                    </a>
-
-                </h3>
-
-
-                <p class="pub-meta">
-                    Francisco Portillo · arXiv:2511.01615
-                </p>
-
-
-                <p class="pub-description">
-                    Examines semantic and orthographic error correction patterns
-                    across GPT-4, Gemini, and LLaMA, comparing model behavior
-                    with that of native Spanish speakers and identifying
-                    systematic asymmetries between human and artificial
-                    linguistic processing.
-                </p>
-
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     EXPERIENCE
-========================== -->
-
-<section id="experience">
-
-    <div class="section-heading">
-
-        <span class="section-number">04</span>
-
-        <div>
-            <p class="section-label">Research Experience</p>
-            <h2>Learning through<br><em>research.</em></h2>
-        </div>
-
-    </div>
-
-
-    <div class="positions-list">
-
-
-        <article class="position-item">
-
-            <div class="position-period">
-                <span>June 2026</span>
-                <small>Present</small>
-            </div>
-
-
-            <div class="position-marker"></div>
-
-
-            <div class="position-content">
-
-                <h3>Harvard University</h3>
-
-                <p class="position-role">
-                    Research Intern — PhonLab
-                </p>
-
-                <p>
-                    Under the supervision of Dr. Kathryn Franich. Analysis of
-                    co-speech gesture data using ELAN, investigating the
-                    relationship between prosodic structure and multimodal
-                    communication.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <article class="position-item">
-
-            <div class="position-period">
-                <span>June 2026</span>
-                <small>Present</small>
-            </div>
-
-
-            <div class="position-marker"></div>
-
-
-            <div class="position-content">
-
-                <h3>
-                    BCBL — Basque Center on Cognition, Brain and Language
-                </h3>
-
-                <p class="position-role">
-                    Research Intern — Infant Language &amp; Cognition
-                </p>
-
-                <p>
-                    Contributing to the WordLex project on early word acquisition.
-                    Combines theoretical reading in cloze probability, entropy,
-                    surprisal, and pseudoword processing with direct participation
-                    in live EEG and eye-tracking experiments with infant and child
-                    participants. Undergraduate thesis supervised by Dr. Olivera Savic.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <article class="position-item">
-
-            <div class="position-period">
-                <span>March 2026</span>
-                <small>Present</small>
-            </div>
-
-
-            <div class="position-marker"></div>
-
-
-            <div class="position-content">
-
-                <h3>
-                    Max Planck Institute for Psycholinguistics
-                </h3>
-
-                <p class="position-role">
-                    Research Assistant — Language and Computation in Neural Systems
-                </p>
-
-                <p>
-                    Time-frequency analysis of prosodic timing using Continuous
-                    Wavelet Transform (CWT) in MATLAB, comparing German and French.
-                    Extensive reading in EEG and MEG methodology.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <article class="position-item">
-
-            <div class="position-period">
-                <span>February 2026</span>
-                <small>Present</small>
-            </div>
-
-
-            <div class="position-marker"></div>
-
-
-            <div class="position-content">
-
-                <h3>University of Iowa</h3>
-
-                <p class="position-role">
-                    Research Assistant — Clinical Linguistics and Disparities Lab
-                </p>
-
-                <p>
-                    Transcription and phonetic analysis of child speech samples
-                    using Phon software. Behavioral acquisition data collection
-                    and annotation.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <article class="position-item">
-
-            <div class="position-period">
-                <span>October 2025</span>
-                <small>June 2026</small>
-            </div>
-
-
-            <div class="position-marker"></div>
-
-
-            <div class="position-content">
-
-                <h3>Universidad de Navarra</h3>
-
-                <p class="position-role">
-                    Research Intern — Institute for Culture and Society
-                </p>
-
-                <p>
-                    Multimodal language analysis and transcription of recordings
-                    with ELAN and Praat as part of the MultiDeMe Project,
-                    exploring identity, memory, and emotion.
-                </p>
-
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     METHODS
-========================== -->
-
-<section id="methods">
-
-    <div class="section-heading">
-
-        <span class="section-number">05</span>
-
-        <div>
-            <p class="section-label">Methods &amp; Tools</p>
-            <h2>From experiment<br>to <em>model.</em></h2>
-        </div>
-
-    </div>
-
-
-    <div class="methods-grid">
-
-        <div class="method-group">
-
-            <span class="method-index">01</span>
-
-            <h3>Experimental</h3>
-
-            <p>
-                EEG · MEG · Eye-tracking · Behavioral experiments
-            </p>
-
-        </div>
-
-
-        <div class="method-group">
-
-            <span class="method-index">02</span>
-
-            <h3>Speech &amp; Language</h3>
-
-            <p>
-                ELAN · Praat · Phon · Phonetic analysis · Transcription
-            </p>
-
-        </div>
-
-
-        <div class="method-group">
-
-            <span class="method-index">03</span>
-
-            <h3>Computational</h3>
-
-            <p>
-                Python · MATLAB · LLMs · Computational modeling
-            </p>
-
-        </div>
-
-
-        <div class="method-group">
-
-            <span class="method-index">04</span>
-
-            <h3>Analysis</h3>
-
-            <p>
-                Surprisal · Entropy · Cloze probability · Time-frequency analysis
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     PRESENTATIONS
-========================== -->
-
-<section id="talks">
-
-    <div class="section-heading">
-
-        <span class="section-number">06</span>
-
-        <div>
-            <p class="section-label">Presentations</p>
-            <h2>Sharing <em>ideas.</em></h2>
-        </div>
-
-    </div>
-
-
-    <div class="talks-list">
-
-
-        <article class="talk-item">
-
-            <span class="talk-year">June 2026</span>
-
-            <div class="talk-content">
-
-                <span class="talk-type">
-                    Oral Presentation
-                </span>
-
-                <h3>
-                    Normative Hallucinations: AI's Inability to Process
-                    the Cognitive Architecture of Spanish in the U.S.
-                </h3>
-
-                <p>
-                    XI International Symposium, Instituto Cervantes ·
-                    Harvard University Observatory
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <article class="talk-item">
-
-            <span class="talk-year">May 2026</span>
-
-            <div class="talk-content">
-
-                <span class="talk-type">
-                    Oral Presentation
-                </span>
-
-                <h3>
-                    Imperfect Language, Artificial Intelligence, and the
-                    Human Mind: An Interdisciplinary Approach to Linguistic
-                    Errors in Native Spanish Speakers
-                </h3>
-
-                <p>
-                    Maryland Hispanic Applied Linguistics Conference (MHALC 26) ·
-                    University of Maryland
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <article class="talk-item">
-
-            <span class="talk-year">April 2026</span>
-
-            <div class="talk-content">
-
-                <span class="talk-type">
-                    Oral Presentation
-                </span>
-
-                <h3>
-                    Lenguaje imperfecto, Inteligencia Artificial y la mente
-                    humana: un enfoque interdisciplinario de los errores
-                    lingüísticos en hablantes nativos de español
-                </h3>
-
-                <p>
-                    XXIII Jornada Internacional de la Delegación de Venezuela
-                    ante la ALFAL · IVILLAB
-                </p>
-
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     CLOSING
-========================== -->
-
-<section class="closing">
-
-    <div class="closing-inner">
-
-        <p class="closing-label">
-            Researching language from multiple angles.
-        </p>
-
-        <h2>
-            Language is the question.<br>
-            <em>Computation is one way in.</em>
-        </h2>
-
-        <a href="mailto:fportillolo@alumni.unav.es"
-           class="closing-link">
-
-            Get in touch
-            <span>↗</span>
-
-        </a>
-
-    </div>
-
-</section>
-
-</main>
-
-
-<!-- =========================
-     FOOTER
-========================== -->
-
-<footer>
-
-    <div class="footer-left">
-        © 2026 Francisco Portillo
-    </div>
-
-    <div class="footer-right">
-
-        <a href="https://orcid.org/0009-0001-2580-5177"
-           target="_blank"
-           rel="noopener noreferrer">
-            ORCID
-        </a>
-
-        <a href="https://scholar.google.es/citations?user=o-IwVyMAAAAJ&hl=en"
-           target="_blank"
-           rel="noopener noreferrer">
-            Google Scholar
-        </a>
-
-        <a href="mailto:fportillolo@alumni.unav.es">
-            Email
-        </a>
-
-    </div>
-
-</footer>
-
-
-<!-- =========================
-     JAVASCRIPT
-========================== -->
-
-<script>
-
-
-/* -------------------------
-   DARK MODE TOGGLE
-------------------------- */
-const themeToggleBtn = document.querySelector(".theme-toggle");
-
-if (themeToggleBtn) {
-    themeToggleBtn.addEventListener("click", () => {
-        const currentTheme = document.documentElement.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', newTheme);
-    });
+html {
+    scroll-behavior: smooth;
 }
-    
-    /* -------------------------
-       NAVBAR SCROLL EFFECT
-    ------------------------- */
-
-    const navbar = document.getElementById("navbar");
-
-    window.addEventListener("scroll", () => {
-
-        if (window.scrollY > 40) {
-            navbar.classList.add("scrolled");
-        } else {
-            navbar.classList.remove("scrolled");
-        }
-
-    });
 
 
-    /* -------------------------
-       SCROLL PROGRESS
-    ------------------------- */
-
-    const progress = document.querySelector(".scroll-progress");
-
-    window.addEventListener("scroll", () => {
-
-        const scrollTop = window.scrollY;
-
-        const documentHeight =
-            document.documentElement.scrollHeight -
-            window.innerHeight;
-
-        const percentage =
-            documentHeight > 0
-                ? (scrollTop / documentHeight) * 100
-                : 0;
-
-        progress.style.width = percentage + "%";
-
-    });
+body {
+    font-family: "Inter", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.7;
+    overflow-x: hidden;
+    transition: background 0.3s ease, color 0.3s ease;
+}
 
 
-    /* -------------------------
-       REVEAL ON SCROLL
-    ------------------------- */
+img {
+    max-width: 100%;
+}
 
-    const revealElements =
-        document.querySelectorAll(
-            ".section-heading, .research-intro, .interest-cell, .pub-item, .position-item, .method-group, .talk-item, .closing-inner"
+
+a {
+    color: inherit;
+}
+
+
+::selection {
+    background: var(--accent-light);
+    color: var(--ink);
+}
+
+
+/* =========================================================
+   VARIABLES
+   ========================================================= */
+
+:root {
+
+    --ink: #14171f;
+    --ink-soft: #4a4d56;
+    --ink-muted: #85827c;
+
+    --bg: #f2ede7;
+    --bg-white: #ffffff;
+
+    --rule: #ded6c9;
+    --rule-rgb: 222, 214, 201;
+
+    --accent: #2f8f7f;
+    --accent-dark: #1f5f54;
+    --accent-light: #e2efec;
+
+    --coral: #c1503f;
+    --coral-light: #f6e6e2;
+
+    --serif: "EB Garamond", Georgia, serif;
+    --sans: "Inter", Arial, sans-serif;
+    --mono: "DM Mono", monospace;
+
+    --max-width: 1080px;
+
+}
+
+
+html[data-theme="dark"] {
+
+    --ink: #ece9e1;
+    --ink-soft: #b3afa6;
+    --ink-muted: #7d7a72;
+
+    --bg: #14171f;
+    --bg-white: #1a1e28;
+
+    --rule: #2a2e39;
+    --rule-rgb: 42, 46, 57;
+
+    --accent: #4fb8a6;
+    --accent-dark: #7fd0c1;
+    --accent-light: #1c3733;
+
+    --coral: #d97a68;
+    --coral-light: #33221e;
+
+}
+
+
+html[data-theme="dark"] .navbar {
+    background: rgba(20, 23, 31, 0.9);
+}
+
+
+html[data-theme="dark"] .interest-cell,
+html[data-theme="dark"] .method-group {
+    background: var(--bg);
+}
+
+
+html[data-theme="dark"] .interest-cell:hover,
+html[data-theme="dark"] .method-group:hover {
+    background: var(--bg-white);
+}
+
+
+html[data-theme="dark"] .closing {
+    background: #191d26;
+}
+
+
+html[data-theme="dark"] .pub-status.neutral {
+    background: #232833;
+    color: var(--ink-soft);
+}
+
+
+html[data-theme="dark"] .pub-status {
+    color: #e8c98a;
+    background: #33301f;
+}
+
+
+html[data-theme="dark"] ::selection {
+    background: var(--accent-light);
+    color: var(--accent-dark);
+}
+
+
+/* =========================================================
+   WAVEFORM SIGNATURE
+   Used as a section divider in place of a plain hairline.
+   ========================================================= */
+
+.wave-rule {
+
+    width: 100%;
+    height: 14px;
+
+    background-repeat: repeat-x;
+    background-position: left center;
+    background-size: 44px 14px;
+
+    background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='14' viewBox='0 0 44 14'%3E%3Cpath d='M0,7 L4,7 L6,2 L9,12 L12,7 L18,7 L20,4 L23,10 L26,7 L32,7 L34,2 L37,12 L40,7 L44,7' fill='none' stroke='%23DED6C9' stroke-width='1'/%3E%3C/svg%3E");
+
+    opacity: 0.9;
+
+}
+
+
+html[data-theme="dark"] .wave-rule {
+
+    background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='14' viewBox='0 0 44 14'%3E%3Cpath d='M0,7 L4,7 L6,2 L9,12 L12,7 L18,7 L20,4 L23,10 L26,7 L32,7 L34,2 L37,12 L40,7 L44,7' fill='none' stroke='%232A2E39' stroke-width='1'/%3E%3C/svg%3E");
+
+}
+
+
+/* =========================================================
+   SCROLL PROGRESS
+   ========================================================= */
+
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 0;
+    height: 2px;
+
+    background: var(--accent);
+
+    z-index: 1000;
+
+    transition: width 0.08s linear;
+}
+
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
+.navbar {
+
+    position: sticky;
+    top: 0;
+
+    z-index: 100;
+
+    height: 66px;
+
+    padding: 0 2.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: rgba(242, 237, 231, 0.90);
+
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    border-bottom: 1px solid rgba(var(--rule-rgb), 0.85);
+
+    transition:
+        height 0.3s ease,
+        box-shadow 0.3s ease,
+        background 0.3s ease,
+        border-color 0.3s ease;
+
+}
+
+
+.navbar.scrolled {
+
+    height: 58px;
+
+    box-shadow:
+        0 8px 30px rgba(20, 23, 31, 0.06);
+
+}
+
+
+.nav-name {
+
+    font-family: var(--serif);
+
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    text-decoration: none;
+
+    letter-spacing: 0.01em;
+
+    transition:
+        color 0.25s ease,
+        transform 0.25s ease;
+
+}
+
+
+.nav-name:hover {
+
+    color: var(--accent);
+
+    transform: translateX(2px);
+
+}
+
+
+.nav-links {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 1.4rem;
+
+}
+
+
+.nav-links a {
+
+    position: relative;
+
+    text-decoration: none;
+
+    color: var(--ink-soft);
+
+    font-size: 0.72rem;
+
+    font-weight: 500;
+
+    letter-spacing: 0.09em;
+
+    text-transform: uppercase;
+
+    transition:
+        color 0.25s ease,
+        transform 0.25s ease;
+
+}
+
+
+.nav-links a::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -6px;
+
+    width: 100%;
+    height: 1px;
+
+    background: var(--accent);
+
+    transform: scaleX(0);
+
+    transform-origin: right;
+
+    transition:
+        transform 0.3s ease;
+
+}
+
+
+.nav-links a:hover,
+.nav-links a.active {
+
+    color: var(--accent);
+
+}
+
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+
+    transform: scaleX(1);
+
+    transform-origin: left;
+
+}
+
+
+.theme-toggle {
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+
+    color: var(--ink-soft);
+
+    background: transparent;
+
+    border: 1px solid var(--rule);
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    transition:
+        color 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.25s ease;
+
+}
+
+
+.theme-toggle:hover {
+
+    color: var(--accent);
+
+    border-color: var(--accent);
+
+    transform: translateY(-1px);
+
+}
+
+
+.theme-toggle svg {
+
+    width: 16px;
+    height: 16px;
+
+}
+
+
+.theme-toggle .icon-moon {
+
+    display: none;
+
+}
+
+
+html[data-theme="dark"] .theme-toggle .icon-sun {
+
+    display: none;
+
+}
+
+
+html[data-theme="dark"] .theme-toggle .icon-moon {
+
+    display: block;
+
+}
+
+
+.nav-links .nav-cv {
+
+    color: var(--accent);
+
+    border: 1px solid rgba(47, 143, 127, 0.4);
+
+    padding: 0.48rem 0.75rem;
+
+    transition:
+        background 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.25s ease;
+
+}
+
+
+.nav-links .nav-cv::after {
+
+    display: none;
+
+}
+
+
+.nav-links .nav-cv:hover {
+
+    background: var(--accent);
+
+    color: white;
+
+    border-color: var(--accent);
+
+    transform: translateY(-1px);
+
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero {
+
+    max-width: var(--max-width);
+
+    margin: 0 auto;
+
+    padding: 7.5rem 2.5rem 7rem;
+
+}
+
+
+.hero-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        320px;
+
+    gap: 6rem;
+
+    align-items: start;
+
+}
+
+
+.hero-text {
+
+    max-width: 690px;
+
+}
+
+
+.hero-kicker {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 0.6rem;
+
+    margin-bottom: 1.8rem;
+
+    color: var(--accent);
+
+    font-family: var(--mono);
+
+    font-size: 0.67rem;
+
+    letter-spacing: 0.09em;
+
+    text-transform: uppercase;
+
+}
+
+
+.status-dot {
+
+    width: 7px;
+    height: 7px;
+
+    border-radius: 50%;
+
+    background: var(--accent);
+
+    box-shadow:
+        0 0 0 4px rgba(47, 143, 127, 0.1);
+
+    animation: pulse 2.5s infinite;
+
+}
+
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        box-shadow:
+            0 0 0 4px rgba(47, 143, 127, 0.1);
+    }
+
+    50% {
+        box-shadow:
+            0 0 0 7px rgba(47, 143, 127, 0.03);
+    }
+
+}
+
+
+.hero h1 {
+
+    font-family: var(--serif);
+
+    font-size: clamp(4.4rem, 8vw, 7rem);
+
+    font-weight: 500;
+
+    line-height: 0.83;
+
+    letter-spacing: -0.045em;
+
+    margin-bottom: 0.6rem;
+
+}
+
+
+.hero h1 span {
+
+    color: var(--accent);
+
+    font-style: italic;
+
+}
+
+
+.hero-trace {
+
+    display: block;
+
+    width: 100%;
+    max-width: 460px;
+    height: 22px;
+
+    margin-bottom: 1.4rem;
+
+    stroke: var(--coral);
+
+    stroke-width: 1.6;
+
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+    fill: none;
+
+    opacity: 0.85;
+
+}
+
+
+.hero-role {
+
+    margin-bottom: 1.25rem;
+
+    font-family: var(--mono);
+
+    font-size: 0.7rem;
+
+    color: var(--ink-muted);
+
+    letter-spacing: 0.08em;
+
+    text-transform: uppercase;
+
+}
+
+
+.intro {
+
+    max-width: 570px;
+
+    color: var(--ink-soft);
+
+    font-size: 1rem;
+
+    line-height: 1.8;
+
+    margin-bottom: 1.15rem;
+
+}
+
+
+.institution-link {
+
+    color: var(--accent);
+
+    text-decoration: none;
+
+    border-bottom: 1px solid rgba(47, 143, 127, 0.4);
+
+    transition:
+        border-color 0.2s ease,
+        color 0.2s ease;
+
+}
+
+
+.institution-link:hover {
+
+    color: var(--accent-dark);
+
+    border-color: var(--accent);
+
+}
+
+
+.research-statement {
+
+    max-width: 650px;
+
+    color: var(--ink-soft);
+
+    font-size: 0.94rem;
+
+    line-height: 1.85;
+
+}
+
+
+.research-statement strong {
+
+    color: var(--ink);
+
+    font-weight: 600;
+
+}
+
+
+/* =========================================================
+   CURRENT WORK
+   ========================================================= */
+
+.current-work {
+
+    margin-top: 2.6rem;
+
+    padding-left: 1.2rem;
+
+    border-left: 1px solid var(--rule);
+
+}
+
+
+.current-work-header {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 0.65rem;
+
+    margin-bottom: 0.9rem;
+
+}
+
+
+.current-work-header p {
+
+    color: var(--ink-muted);
+
+    font-family: var(--mono);
+
+    font-size: 0.64rem;
+
+    letter-spacing: 0.08em;
+
+    text-transform: uppercase;
+
+}
+
+
+.current-line {
+
+    width: 18px;
+    height: 1px;
+
+    background: var(--accent);
+
+}
+
+
+.institution-list {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.55rem 1.1rem;
+
+}
+
+
+.institution-list a {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 0.25rem;
+
+    color: var(--ink-soft);
+
+    font-size: 0.78rem;
+
+    font-weight: 500;
+
+    text-decoration: none;
+
+    transition:
+        color 0.25s ease,
+        transform 0.25s ease;
+
+}
+
+
+.institution-list a span {
+
+    color: var(--accent);
+
+    opacity: 0;
+
+    transform: translate(-3px, 3px);
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+
+}
+
+
+.institution-list a:hover {
+
+    color: var(--accent);
+
+    transform: translateX(2px);
+
+}
+
+
+.institution-list a:hover span {
+
+    opacity: 1;
+
+    transform: translate(0, 0);
+
+}
+
+
+/* =========================================================
+   SOCIAL LINKS
+   ========================================================= */
+
+.contact-row {
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 0.55rem;
+
+    margin-top: 2.6rem;
+
+}
+
+
+.contact-link,
+.social-link,
+.cv-link {
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+}
+
+
+.email-link {
+
+    gap: 0.45rem;
+
+    margin-right: 0.4rem;
+
+    color: var(--ink-soft);
+
+    font-size: 0.72rem;
+
+    transition:
+        color 0.25s ease;
+
+}
+
+
+.email-link svg {
+
+    width: 15px;
+    height: 15px;
+
+}
+
+
+.email-link:hover {
+
+    color: var(--accent);
+
+}
+
+
+.social-divider {
+
+    width: 1px;
+    height: 19px;
+
+    background: var(--rule);
+
+    margin: 0 0.25rem;
+
+}
+
+
+.social-link {
+
+    width: 34px;
+    height: 34px;
+
+    color: var(--ink-soft);
+
+    border: 1px solid var(--rule);
+
+    border-radius: 50%;
+
+    transition:
+        color 0.25s ease,
+        border-color 0.25s ease,
+        background 0.25s ease,
+        transform 0.25s ease;
+
+}
+
+
+.social-link svg {
+
+    width: 15px;
+    height: 15px;
+
+}
+
+
+.social-link:hover {
+
+    color: white;
+
+    background: var(--accent);
+
+    border-color: var(--accent);
+
+    transform: translateY(-3px);
+
+}
+
+
+.cv-link {
+
+    gap: 0.25rem;
+
+    margin-left: 0.35rem;
+
+    padding: 0.55rem 0.85rem;
+
+    color: var(--accent);
+
+    font-family: var(--mono);
+
+    font-size: 0.67rem;
+
+    border: 1px solid rgba(47, 143, 127, 0.4);
+
+    transition:
+        background 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease;
+
+}
+
+
+.cv-link:hover {
+
+    background: var(--accent);
+
+    color: white;
+
+    transform: translateY(-2px);
+
+}
+
+
+.cv-link span {
+
+    transition:
+        transform 0.25s ease;
+
+}
+
+
+.cv-link:hover span {
+
+    transform: translate(2px, -2px);
+
+}
+
+
+/* =========================================================
+   HERO PHOTO
+   ========================================================= */
+
+.hero-photo {
+
+    position: relative;
+
+    padding-top: 1rem;
+
+}
+
+
+.photo-number {
+
+    position: absolute;
+
+    top: -0.6rem;
+    right: 0;
+
+    font-family: var(--mono);
+
+    font-size: 0.65rem;
+
+    color: var(--ink-muted);
+
+}
+
+
+.photo-frame {
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+
+.photo-frame::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 12px;
+    left: 12px;
+
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid var(--coral);
+
+    opacity: 0.35;
+
+    transition:
+        transform 0.5s cubic-bezier(.2,.7,.2,1),
+        opacity 0.3s ease;
+
+}
+
+
+.photo-frame::after {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(47, 143, 127, 0.1),
+            transparent 35%
         );
 
+    pointer-events: none;
 
-    const revealObserver = new IntersectionObserver(
-        (entries, observer) => {
-
-            entries.forEach(entry => {
-
-                if (entry.isIntersecting) {
-
-                    entry.target.classList.add("visible");
-
-                    observer.unobserve(entry.target);
-
-                }
-
-            });
-
-        },
-        {
-            threshold: 0.12
-        }
-    );
+}
 
 
-    revealElements.forEach(element => {
+.photo-frame img {
 
-        element.classList.add("scroll-reveal");
+    position: relative;
 
-        revealObserver.observe(element);
+    display: block;
 
-    });
+    width: 100%;
 
+    aspect-ratio: 3 / 4;
 
-    /* -------------------------
-       ACTIVE NAVIGATION
-    ------------------------- */
+    object-fit: cover;
 
-    const sections =
-        document.querySelectorAll("main section[id]");
+    object-position: center top;
 
-    const navLinks =
-        document.querySelectorAll(
-            ".nav-links a[data-section]"
-        );
+    filter: grayscale(12%) contrast(1.02);
 
+    border-radius: 2px;
 
-    const sectionObserver = new IntersectionObserver(
-        entries => {
+    z-index: 1;
 
-            entries.forEach(entry => {
+    transition:
+        filter 0.5s ease,
+        transform 0.5s cubic-bezier(.2,.7,.2,1);
 
-                if (entry.isIntersecting) {
-
-                    navLinks.forEach(link => {
-
-                        link.classList.remove("active");
-
-                    });
+}
 
 
-                    const activeLink =
-                        document.querySelector(
-                            `.nav-links a[data-section="${entry.target.id}"]`
-                        );
+.hero-photo:hover .photo-frame img {
+
+    filter: grayscale(0%);
+
+    transform: translate(-3px, -3px);
+
+}
 
 
-                    if (activeLink) {
-                        activeLink.classList.add("active");
-                    }
+.hero-photo:hover .photo-frame::before {
 
-                }
+    transform: translate(5px, 5px);
 
-            });
+    opacity: 0.5;
 
-        },
-        {
-            rootMargin: "-35% 0px -55% 0px"
-        }
-    );
+}
 
 
-    sections.forEach(section => {
+.photo-caption {
 
-        sectionObserver.observe(section);
+    margin-top: 1rem;
 
-    });
+    color: var(--ink-muted);
+
+    font-family: var(--mono);
+
+    font-size: 0.58rem;
+
+    letter-spacing: 0.08em;
+
+    text-transform: uppercase;
+
+}
 
 
-    /* -------------------------
-       REDUCED MOTION
-    ------------------------- */
+/* =========================================================
+   GENERAL SECTIONS
+   ========================================================= */
 
-    if (
-        window.matchMedia(
-            "(prefers-reduced-motion: reduce)"
-        ).matches
-    ) {
+section {
 
-        document.documentElement.style.scrollBehavior = "auto";
+    max-width: var(--max-width);
+
+    margin: 0 auto;
+
+    padding: 6.5rem 2.5rem;
+
+}
+
+
+section::before {
+
+    content: "";
+
+    display: block;
+
+    width: 100%;
+    height: 14px;
+
+    margin-bottom: -14px;
+
+    transform: translateY(-6.5rem);
+
+    background-repeat: repeat-x;
+    background-position: left center;
+    background-size: 44px 14px;
+
+    background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='14' viewBox='0 0 44 14'%3E%3Cpath d='M0,7 L4,7 L6,2 L9,12 L12,7 L18,7 L20,4 L23,10 L26,7 L32,7 L34,2 L37,12 L40,7 L44,7' fill='none' stroke='%23DED6C9' stroke-width='1'/%3E%3C/svg%3E");
+
+}
+
+
+html[data-theme="dark"] section::before {
+
+    background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='14' viewBox='0 0 44 14'%3E%3Cpath d='M0,7 L4,7 L6,2 L9,12 L12,7 L18,7 L20,4 L23,10 L26,7 L32,7 L34,2 L37,12 L40,7 L44,7' fill='none' stroke='%232A2E39' stroke-width='1'/%3E%3C/svg%3E");
+
+}
+
+
+.section-heading {
+
+    display: grid;
+
+    grid-template-columns: 55px 1fr;
+
+    gap: 1.4rem;
+
+    margin-bottom: 3.3rem;
+
+}
+
+
+.section-number {
+
+    padding-top: 0.35rem;
+
+    color: var(--accent);
+
+    font-family: var(--mono);
+
+    font-size: 0.65rem;
+
+}
+
+
+.section-number::before {
+    content: "[";
+}
+
+
+.section-number::after {
+    content: "]";
+}
+
+
+.section-label {
+
+    margin-bottom: 0.7rem;
+
+    color: var(--ink-muted);
+
+    font-family: var(--mono);
+
+    font-size: 0.65rem;
+
+    letter-spacing: 0.12em;
+
+    text-transform: uppercase;
+
+}
+
+
+.section-heading h2 {
+
+    font-family: var(--serif);
+
+    font-size: clamp(2.3rem, 4vw, 3.6rem);
+
+    font-weight: 500;
+
+    line-height: 1.05;
+
+    letter-spacing: -0.025em;
+
+}
+
+
+.section-heading h2 em {
+
+    color: var(--accent);
+
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+
+.research-intro {
+
+    max-width: 720px;
+
+    margin-left: 55px;
+
+    margin-bottom: 3rem;
+
+}
+
+
+.research-intro p {
+
+    color: var(--ink-soft);
+
+    font-size: 1rem;
+
+    line-height: 1.85;
+
+}
+
+
+/* =========================================================
+   RESEARCH GRID
+   ========================================================= */
+
+.interests-grid {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    border-top: 1px solid var(--rule);
+    border-left: 1px solid var(--rule);
+
+}
+
+
+.interest-cell {
+
+    position: relative;
+
+    min-height: 260px;
+
+    padding: 2rem;
+
+    background: var(--bg);
+
+    border-right: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+
+    overflow: hidden;
+
+    transition:
+        background 0.35s ease,
+        transform 0.35s cubic-bezier(.2,.7,.2,1),
+        box-shadow 0.35s ease;
+
+}
+
+
+.interest-cell::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 0;
+    height: 2px;
+
+    background: var(--coral);
+
+    transition:
+        width 0.45s cubic-bezier(.2,.7,.2,1);
+
+}
+
+
+.interest-cell:hover {
+
+    background: var(--bg-white);
+
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 15px 35px rgba(20, 23, 31, 0.08);
+
+    z-index: 2;
+
+}
+
+
+.interest-cell:hover::before {
+
+    width: 100%;
+
+}
+
+
+.interest-number {
+
+    display: block;
+
+    margin-bottom: 2.7rem;
+
+    color: var(--ink-muted);
+
+    font-family: var(--mono);
+
+    font-size: 0.6rem;
+
+}
+
+
+.interest-cell h3 {
+
+    margin-bottom: 0.7rem;
+
+    font-family: var(--serif);
+
+    font-size: 1.35rem;
+
+    font-weight: 500;
+
+}
+
+
+.interest-cell p {
+
+    max-width: 460px;
+
+    color: var(--ink-soft);
+
+    font-size: 0.82rem;
+
+    line-height: 1.75;
+
+}
+
+
+.cell-arrow {
+
+    position: absolute;
+
+    right: 1.8rem;
+    bottom: 1.7rem;
+
+    color: var(--accent);
+
+    font-size: 1.1rem;
+
+    opacity: 0;
+
+    transform: translate(-5px, 5px);
+
+    transition:
+        opacity 0.3s ease,
+        transform 0.3s ease;
+
+}
+
+
+.interest-cell:hover .cell-arrow {
+
+    opacity: 1;
+
+    transform: translate(0, 0);
+
+}
+
+
+/* =========================================================
+   NEWS
+   ========================================================= */
+
+.news-item {
+
+    padding-bottom: 1.6rem;
+
+    border-bottom: 1px solid var(--rule);
+
+}
+
+
+.news-date {
+
+    display: block;
+
+    margin-bottom: 0.5rem;
+
+    color: var(--ink-muted);
+
+    font-family: var(--mono);
+
+    font-size: 0.65rem;
+
+}
+
+
+.news-content h3 {
+
+    margin-bottom: 0.4rem;
+
+    font-family: var(--serif);
+
+    font-size: 1.2rem;
+
+    font-weight: 500;
+
+}
+
+
+.news-content p {
+
+    max-width: 700px;
+
+    color: var(--ink-soft);
+
+    font-size: 0.85rem;
+
+    line-height: 1.7;
+
+}
+
+
+/* =========================================================
+   PUBLICATIONS
+   ========================================================= */
+
+.pub-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+.pub-item {
+
+    display: grid;
+
+    grid-template-columns: 60px 1fr;
+
+    gap: 1.5rem;
+
+    padding: 2.2rem 0;
+
+    border-bottom: 1px solid var(--rule);
+
+    transition:
+        padding-left 0.3s ease;
+
+}
+
+
+.pub-item:first-child {
+
+    border-top: 1px solid var(--rule);
+
+}
+
+
+.pub-item:hover {
+
+    padding-left: 0.7rem;
+
+}
+
+
+.pub-year {
+
+    padding-top: 0.3rem;
+
+    color: var(--ink-muted);
+
+    font-family: var(--mono);
+
+    font-size: 0.65rem;
+
+}
+
+
+.pub-topline {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 0.65rem;
+
+    margin-bottom: 0.55rem;
+
+}
+
+
+.pub-type,
+.pub-status {
+
+    display: inline-block;
+
+    font-family: var(--mono);
+
+    font-size: 0.58rem;
+
+    letter-spacing: 0.07em;
+
+    text-transform: uppercase;
+
+}
+
+
+.pub-type {
+
+    color: var(--accent);
+
+}
+
+
+.pub-status {
+
+    padding: 0.22rem 0.5rem;
+
+    color: #856404;
+
+    background: #fdedc9;
+
+}
+
+
+.pub-status.neutral {
+
+    color: var(--ink-soft);
+
+    background: var(--rule);
+
+}
+
+
+.pub-content h3 {
+
+    max-width: 800px;
+
+    margin-bottom: 0.5rem;
+
+    font-family: var(--serif);
+
+    font-size: 1.3rem;
+
+    font-weight: 500;
+
+    line-height: 1.35;
+
+}
+
+
+.pub-content h3 a {
+
+    text-decoration: none;
+
+    transition: color 0.25s ease;
+
+}
+
+
+.pub-content h3 a:hover {
+
+    color: var(--accent);
+
+}
+
+
+.title-arrow {
+
+    display: inline-block;
+
+    margin-left: 0.25rem;
+
+    color: var(--accent);
+
+    font-family: var(--sans);
+
+    font-size: 0.8rem;
+
+    opacity: 0;
+
+    transform: translate(-4px, 4px);
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+
+}
+
+
+.pub-content h3 a:hover .title-arrow {
+
+    opacity: 1;
+
+    transform: translate(0, 0);
+
+}
+
+
+.pub-meta {
+
+    margin-bottom: 0.9rem;
+
+    color: var(--ink-muted);
+
+    font-size: 0.72rem;
+
+}
+
+
+.pub-description {
+
+    max-width: 760px;
+
+    color: var(--ink-soft);
+
+    font-size: 0.81rem;
+
+    line-height: 1.7;
+
+}
+
+
+/* =========================================================
+   EXPERIENCE
+   ========================================================= */
+
+.positions-list {
+
+    position: relative;
+
+    margin-left: 55px;
+
+}
+
+
+.positions-list::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+
+    left: 126px;
+
+    width: 1px;
+
+    background: var(--rule);
+
+}
+
+
+.position-item {
+
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns: 105px 42px 1fr;
+
+    gap: 0;
+
+    padding: 1.7rem 0;
+
+    border-bottom: 1px solid var(--rule);
+
+}
+
+
+.position-item:first-child {
+
+    border-top: 1px solid var(--rule);
+
+}
+
+
+.position-period {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding-top: 0.2rem;
+
+    color: var(--ink-muted);
+
+    font-family: var(--mono);
+
+    font-size: 0.62rem;
+
+    line-height: 1.5;
+
+}
+
+
+.position-period small {
+
+    font-size: 0.58rem;
+
+    opacity: 0.7;
+
+}
+
+
+.position-marker {
+
+    position: relative;
+
+}
+
+
+.position-marker::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 0.48rem;
+    left: 16px;
+
+    width: 9px;
+    height: 9px;
+
+    background: var(--bg);
+
+    border: 1.5px solid var(--coral);
+
+    border-radius: 50%;
+
+    transition:
+        background 0.25s ease,
+        transform 0.25s ease;
+
+}
+
+
+.position-item:hover .position-marker::before {
+
+    background: var(--coral);
+
+    transform: scale(1.35);
+
+}
+
+
+.position-content {
+
+    padding-right: 2rem;
+
+}
+
+
+.position-content h3 {
+
+    margin-bottom: 0.2rem;
+
+    font-family: var(--serif);
+
+    font-size: 1.25rem;
+
+    font-weight: 500;
+
+}
+
+
+.position-role {
+
+    margin-bottom: 0.65rem;
+
+    color: var(--accent);
+
+    font-family: var(--mono);
+
+    font-size: 0.63rem;
+
+    letter-spacing: 0.03em;
+
+}
+
+
+.position-content > p:last-child {
+
+    max-width: 720px;
+
+    color: var(--ink-soft);
+
+    font-size: 0.81rem;
+
+    line-height: 1.7;
+
+}
+
+
+/* =========================================================
+   METHODS
+   ========================================================= */
+
+.methods-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    border-top: 1px solid var(--rule);
+
+    border-left: 1px solid var(--rule);
+
+}
+
+
+.method-group {
+
+    position: relative;
+
+    min-height: 190px;
+
+    padding: 1.6rem;
+
+    border-right: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+
+    transition:
+        background 0.3s ease;
+
+}
+
+
+.method-group:hover {
+
+    background: var(--bg-white);
+
+}
+
+
+.method-index {
+
+    display: block;
+
+    margin-bottom: 2.2rem;
+
+    color: var(--accent);
+
+    font-family: var(--mono);
+
+    font-size: 0.58rem;
+
+}
+
+
+.method-group h3 {
+
+    margin-bottom: 0.5rem;
+
+    font-family: var(--serif);
+
+    font-size: 1.15rem;
+
+    font-weight: 500;
+
+}
+
+
+.method-group p {
+
+    color: var(--ink-soft);
+
+    font-size: 0.73rem;
+
+    line-height: 1.7;
+
+}
+
+
+/* =========================================================
+   TALKS
+   ========================================================= */
+
+.talks-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+.talk-item {
+
+    display: grid;
+
+    grid-template-columns: 60px 1fr;
+
+    gap: 1.5rem;
+
+    padding: 1.9rem 0;
+
+    border-bottom: 1px solid var(--rule);
+
+    transition:
+        padding-left 0.3s ease;
+
+}
+
+
+.talk-item:first-child {
+
+    border-top: 1px solid var(--rule);
+
+}
+
+
+.talk-item:hover {
+
+    padding-left: 0.7rem;
+
+}
+
+
+.talk-year {
+
+    color: var(--ink-muted);
+
+    font-family: var(--mono);
+
+    font-size: 0.65rem;
+
+    padding-top: 0.25rem;
+
+}
+
+
+.talk-type {
+
+    display: block;
+
+    margin-bottom: 0.35rem;
+
+    color: var(--accent);
+
+    font-family: var(--mono);
+
+    font-size: 0.58rem;
+
+    letter-spacing: 0.08em;
+
+    text-transform: uppercase;
+
+}
+
+
+.talk-content h3 {
+
+    max-width: 800px;
+
+    margin-bottom: 0.45rem;
+
+    font-family: var(--serif);
+
+    font-size: 1.25rem;
+
+    font-weight: 500;
+
+    line-height: 1.4;
+
+}
+
+
+.talk-content p {
+
+    color: var(--ink-muted);
+
+    font-size: 0.72rem;
+
+}
+
+
+/* =========================================================
+   CLOSING
+   ========================================================= */
+
+.closing {
+
+    max-width: none;
+
+    padding: 8rem 2.5rem;
+
+    background: var(--accent-light);
+
+    border-top: 1px solid var(--rule);
+
+}
+
+
+.closing::before {
+
+    display: none;
+
+}
+
+
+.closing-inner {
+
+    max-width: var(--max-width);
+
+    margin: 0 auto;
+
+}
+
+
+.closing-label {
+
+    margin-bottom: 1.2rem;
+
+    color: var(--accent-dark);
+
+    font-family: var(--mono);
+
+    font-size: 0.62rem;
+
+    letter-spacing: 0.1em;
+
+    text-transform: uppercase;
+
+}
+
+
+.closing h2 {
+
+    max-width: 760px;
+
+    margin-bottom: 2rem;
+
+    font-family: var(--serif);
+
+    font-size: clamp(2.8rem, 5vw, 5rem);
+
+    font-weight: 500;
+
+    line-height: 0.98;
+
+    letter-spacing: -0.035em;
+
+}
+
+
+.closing h2 em {
+
+    color: var(--coral);
+
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+
+.closing-link {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 0.55rem;
+
+    padding-bottom: 0.3rem;
+
+    color: var(--ink);
+
+    border-bottom: 1px solid var(--ink);
+
+    font-family: var(--mono);
+
+    font-size: 0.68rem;
+
+    letter-spacing: 0.06em;
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    transition:
+        color 0.25s ease,
+        border-color 0.25s ease;
+
+}
+
+
+.closing-link span {
+
+    transition:
+        transform 0.25s ease;
+
+}
+
+
+.closing-link:hover {
+
+    color: var(--coral);
+
+    border-color: var(--coral);
+
+}
+
+
+.closing-link:hover span {
+
+    transform: translate(3px, -3px);
+
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer {
+
+    max-width: var(--max-width);
+
+    margin: 0 auto;
+
+    padding: 2rem 2.5rem;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 2rem;
+
+    color: var(--ink-muted);
+
+    font-family: var(--mono);
+
+    font-size: 0.6rem;
+
+    letter-spacing: 0.03em;
+
+}
+
+
+.footer-right {
+
+    display: flex;
+
+    gap: 1.4rem;
+
+}
+
+
+.footer-right a {
+
+    color: inherit;
+
+    text-decoration: none;
+
+    transition:
+        color 0.25s ease;
+
+}
+
+
+.footer-right a:hover {
+
+    color: var(--accent);
+
+}
+
+
+/* =========================================================
+   SCROLL REVEAL
+   ========================================================= */
+
+.scroll-reveal {
+
+    opacity: 0;
+
+    transform: translateY(25px);
+
+    transition:
+        opacity 0.8s cubic-bezier(.2,.7,.2,1),
+        transform 0.8s cubic-bezier(.2,.7,.2,1);
+
+}
+
+
+.scroll-reveal.visible {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+}
+
+
+.interest-cell:nth-child(2),
+.method-group:nth-child(2),
+.talk-item:nth-child(2) {
+
+    transition-delay: 0.08s;
+
+}
+
+
+.interest-cell:nth-child(3),
+.method-group:nth-child(3),
+.talk-item:nth-child(3) {
+
+    transition-delay: 0.16s;
+
+}
+
+
+.interest-cell:nth-child(4),
+.method-group:nth-child(4) {
+
+    transition-delay: 0.24s;
+
+}
+
+
+/* =========================================================
+   HERO ENTRANCE ANIMATION
+   ========================================================= */
+
+.reveal {
+
+    opacity: 0;
+
+    transform: translateY(18px);
+
+    animation:
+        heroReveal 0.9s cubic-bezier(.2,.7,.2,1) forwards;
+
+}
+
+
+.reveal-delay-1 {
+
+    animation-delay: 0.08s;
+
+}
+
+
+.reveal-delay-2 {
+
+    animation-delay: 0.16s;
+
+}
+
+
+.reveal-delay-3 {
+
+    animation-delay: 0.24s;
+
+}
+
+
+.reveal-delay-4 {
+
+    animation-delay: 0.32s;
+
+}
+
+
+@keyframes heroReveal {
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
 
     }
 
-</script>
+}
 
-</body>
-</html>
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 850px) {
+
+    .navbar {
+
+        padding: 0 1.4rem;
+
+    }
+
+
+    .nav-links {
+
+        gap: 0.9rem;
+
+    }
+
+
+    .nav-links a:not(.nav-cv) {
+
+        display: none;
+
+    }
+
+
+    .hero {
+
+        padding:
+            5rem
+            1.5rem
+            5rem;
+
+    }
+
+
+    .hero-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 4rem;
+
+    }
+
+
+    .hero-photo {
+
+        max-width: 260px;
+
+        justify-self: start;
+
+    }
+
+
+    section {
+
+        padding:
+            5rem
+            1.5rem;
+
+    }
+
+
+    .section-heading {
+
+        grid-template-columns: 38px 1fr;
+
+        gap: 0.8rem;
+
+    }
+
+
+    .research-intro {
+
+        margin-left: 0;
+
+    }
+
+
+    .positions-list {
+
+        margin-left: 0;
+
+    }
+
+
+    .positions-list::before {
+
+        left: 94px;
+
+    }
+
+
+    .position-item {
+
+        grid-template-columns: 75px 38px 1fr;
+
+    }
+
+
+    .methods-grid {
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+
+    .closing {
+
+        padding:
+            6rem
+            1.5rem;
+
+    }
+
+
+    footer {
+
+        padding:
+            1.7rem
+            1.5rem;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    body {
+
+        font-size: 14px;
+
+    }
+
+
+    .navbar {
+
+        height: 58px;
+
+    }
+
+
+    .navbar.scrolled {
+
+        height: 54px;
+
+    }
+
+
+    .nav-name {
+
+        font-size: 1.05rem;
+
+    }
+
+
+    .hero {
+
+        padding-top: 4.5rem;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: clamp(3.8rem, 18vw, 5.2rem);
+
+    }
+
+
+    .hero-kicker {
+
+        font-size: 0.58rem;
+
+    }
+
+
+    .hero-trace {
+
+        max-width: 100%;
+
+    }
+
+
+    .contact-row {
+
+        align-items: flex-start;
+
+    }
+
+
+    .email-link span {
+
+        max-width: 190px;
+
+        overflow: hidden;
+
+        text-overflow: ellipsis;
+
+        white-space: nowrap;
+
+    }
+
+
+    .interests-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .interest-cell {
+
+        min-height: auto;
+
+    }
+
+
+    .pub-item {
+
+        grid-template-columns: 1fr;
+
+        gap: 0.5rem;
+
+    }
+
+
+    .pub-year {
+
+        padding-top: 0;
+
+    }
+
+
+    .position-item {
+
+        grid-template-columns: 1fr;
+
+        gap: 0.4rem;
+
+        padding-left: 1rem;
+
+        border-left: 1px solid var(--rule);
+
+    }
+
+
+    .positions-list::before {
+
+        display: none;
+
+    }
+
+
+    .position-marker {
+
+        display: none;
+
+    }
+
+
+    .position-content {
+
+        padding-right: 0;
+
+    }
+
+
+    .methods-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .method-group {
+
+        min-height: auto;
+
+    }
+
+
+    .talk-item {
+
+        grid-template-columns: 1fr;
+
+        gap: 0.4rem;
+
+    }
+
+
+    .closing h2 {
+
+        font-size: 3rem;
+
+    }
+
+
+    footer {
+
+        gap: 1rem;
+
+    }
+
+
+    .footer-right {
+
+        flex-wrap: wrap;
+
+        gap: 0.8rem 1rem;
+
+    }
+
+}
+
+
+/* =========================================================
+   ACCESSIBILITY
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+
+        animation-duration: 0.01ms !important;
+
+        animation-iteration-count: 1 !important;
+
+        transition-duration: 0.01ms !important;
+
+        scroll-behavior: auto !important;
+
+    }
+
+    .scroll-reveal {
+
+        opacity: 1;
+
+        transform: none;
+
+    }
+
+}
+
+
+.read-more-link {
+
+    display: inline-block;
+
+    margin-top: 0.75rem;
+
+    color: var(--accent);
+
+    font-size: 0.85rem;
+
+    font-weight: 500;
+
+    text-decoration: none;
+
+    transition: opacity 0.2s ease;
+
+}
+
+
+.read-more-link:hover {
+
+    opacity: 0.7;
+
+    text-decoration: underline;
+
+}
