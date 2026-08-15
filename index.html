@@ -93,8 +93,8 @@
             Talks
         </a>
         <!-- Botón de Dark Mode -->
-    <button onclick="toggleTheme()" aria-label="Cambiar modo oscuro" class="theme-toggle">
-        🌓
+    <button aria-label="Cambiar modo oscuro" class="theme-toggle">
+        Dark Mode 🌓
     </button>
 
         <a href="FranciscoPortillo_CV.pdf"
@@ -1203,14 +1203,18 @@
 <script>
 
 
-    /* -------------------------
-       DARK MODE TOGGLE
-    ------------------------- */
-    const toggleTheme = () => {
+/* -------------------------
+   DARK MODE TOGGLE
+------------------------- */
+const themeToggleBtn = document.querySelector(".theme-toggle");
+
+if (themeToggleBtn) {
+    themeToggleBtn.addEventListener("click", () => {
         const currentTheme = document.documentElement.getAttribute('data-theme');
         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
         document.documentElement.setAttribute('data-theme', newTheme);
-    };
+    });
+}
     
     /* -------------------------
        NAVBAR SCROLL EFFECT
