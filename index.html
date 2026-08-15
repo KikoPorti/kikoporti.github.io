@@ -92,6 +92,10 @@
         <a href="#talks" data-section="talks">
             Talks
         </a>
+        <!-- Botón de Dark Mode -->
+    <button onclick="toggleTheme()" aria-label="Cambiar modo oscuro" class="theme-toggle">
+        🌓
+    </button>
 
         <a href="FranciscoPortillo_CV.pdf"
            target="_blank"
@@ -1198,6 +1202,16 @@
 
 <script>
 
+
+    /* -------------------------
+       DARK MODE TOGGLE
+    ------------------------- */
+    const toggleTheme = () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', newTheme);
+    };
+    
     /* -------------------------
        NAVBAR SCROLL EFFECT
     ------------------------- */
