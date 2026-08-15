@@ -2361,5 +2361,21 @@ footer {
         transform: none;
 
     }
+   /* Dark Mode Variables */
+[data-theme="dark"] {
+    --ink: #e0e0e0;
+    --ink-soft: #b0b0b0;
+    --ink-muted: #808080;
+    --bg: #121418;
+    --bg-white: #1a1a1a;
+    --rule: #333333;
+    --accent: #5a8fd9; /* Un azul un poco más brillante para que resalte en oscuro */
+    --accent-light: #1e385e;
+}
+
+/* Aplicación suave */
+body {
+    transition: background 0.3s ease, color 0.3s ease;
+}
 
 }
