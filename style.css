@@ -24,11 +24,12 @@ html {
 
 body {
     font-family: "Inter", sans-serif;
-    background: #faf9f7;
-    color: #1a1a1a;
+    background: var(--bg);        /* Cambia #faf9f7 por var(--bg) */
+    color: var(--ink);            /* Cambia #1a1a1a por var(--ink) */
     font-size: 15px;
     line-height: 1.7;
     overflow-x: hidden;
+    transition: background 0.3s ease, color 0.3s ease; /* Para que el cambio no sea brusco */
 }
 
 
@@ -2396,5 +2397,22 @@ body {
     border-color: var(--accent);
     transform: translateY(-1px);
 }
+
+   /* Esto activa los colores oscuros cuando JS añade data-theme="dark" */
+html[data-theme="dark"] {
+    --ink: #e0e0e0;
+    --ink-soft: #b0b0b0;
+    --ink-muted: #808080;
+    --bg: #121418;
+    --bg-white: #1a1a1a;
+    --rule: #333333;
+    --accent: #5a8fd9;
+    --accent-light: #1e385e;
+}
+
+   html[data-theme="dark"] .navbar {
+    background: rgba(18, 20, 24, 0.90); /* Versión oscura del fondo de la navbar */
+}
+   
 
 }
