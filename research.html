@@ -7,26 +7,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Barra de navegación con botón para volver -->
     <nav class="navbar">
-        <a href="index.html">← Volver</a>
+        <div style="max-width: 900px; margin: 0 auto; width: 100%; padding: 0 2rem;">
+            <a href="index.html" style="text-decoration: none; color: var(--ink); font-weight: 500;">← Volver al inicio</a>
+        </div>
     </nav>
 
-    <main style="padding-top: 8rem; max-width: 800px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
-        <h1>Líneas de Investigación</h1>
-        <p>Una mirada profunda a mi trabajo en la intersección de la lingüística, la IA y la arquitectura cognitiva.</p>
+    <main style="max-width: 800px; margin: 0 auto; padding: 8rem 2rem 4rem 2rem;">
+        <h1 style="font-size: 2.2rem; margin-bottom: 1rem;">Líneas de Investigación</h1>
+        <p style="color: var(--ink-soft); margin-bottom: 4rem;">Desglose detallado de los proyectos, marcos teóricos y metodologías.</p>
 
         <!-- Bloque 1 -->
-        <section id="linea-1" style="margin-top: 4rem;">
-            <h2>Título del Área de Investigación 1</h2>
-            <p>Aquí detallas tu enfoque, la metodología que utilizas (ej. análisis computacional, corpus, etc.) y los resultados preliminares. Puedes añadir citas bibliográficas aquí.</p>
+        <section id="ia-linguistica" style="margin-bottom: 4rem;">
+            <h2>Lingüística e Inteligencia Artificial</h2>
+            <p>Aquí desarrollas toda la información extensa, los enfoques sobre modelos de lenguaje, errores cognitivos, etc. Puedes añadir los párrafos que necesites sin preocuparte por el espacio.</p>
         </section>
 
-        <!-- Repite este bloque para tus otras áreas -->
-        <section id="linea-2" style="margin-top: 4rem;">
-            <h2>Título del Área de Investigación 2</h2>
-            <p>Descripción detallada...</p>
+        <!-- Bloque 2 -->
+        <section id="bloque-2" style="margin-bottom: 4rem;">
+            <h2>Título del segundo bloque de investigación</h2>
+            <p>Desarrollo detallado del segundo bloque...</p>
+        </section>
+
+        <!-- Bloque 3 -->
+        <section id="bloque-3" style="margin-bottom: 4rem;">
+            <h2>Título del tercer bloque de investigación</h2>
+            <p>Desarrollo detallado del tercer bloque...</p>
+        </section>
+
+        <!-- Bloque 4 -->
+        <section id="bloque-4" style="margin-bottom: 4rem;">
+            <h2>Título del cuarto bloque de investigación</h2>
+            <p>Desarrollo detallado del cuarto bloque...</p>
         </section>
     </main>
 
+    <!-- Script del Dark Mode para que la subweb también cambie de tema -->
+    <script>
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+    </script>
 </body>
 </html>
