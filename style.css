@@ -2413,6 +2413,55 @@ html[data-theme="dark"] {
    html[data-theme="dark"] .navbar {
     background: rgba(18, 20, 24, 0.90); /* Versión oscura del fondo de la navbar */
 }
+
+   /* =========================================================
+   DARK MODE OVERRIDES (Forzando el cambio de color)
+   ========================================================= */
+
+html[data-theme="dark"] {
+    --ink: #e0e0e0;
+    --ink-soft: #b0b0b0;
+    --ink-muted: #808080;
+    --bg: #121418;
+    --bg-white: #1a1a1a;
+    --rule: #2a2d34;
+    --accent: #5a8fd9;
+    --accent-light: #1e385e;
+}
+
+html[data-theme="dark"] body {
+    background: var(--bg) !important;
+    color: var(--ink) !important;
+}
+
+html[data-theme="dark"] .navbar {
+    background: rgba(18, 20, 24, 0.90) !important;
+    border-bottom: 1px solid var(--rule) !important;
+}
+
+html[data-theme="dark"] .interest-cell,
+html[data-theme="dark"] .method-group {
+    background: var(--bg) !important;
+}
+
+html[data-theme="dark"] .interest-cell:hover,
+html[data-theme="dark"] .method-group:hover {
+    background: var(--bg-white) !important;
+}
+
+html[data-theme="dark"] .closing {
+    background: #181a20 !important;
+}
+
+html[data-theme="dark"] .pub-status.neutral {
+    background: #262930 !important;
+    color: var(--ink-soft) !important;
+}
+
+html[data-theme="dark"] ::selection {
+    background: #2a3b55;
+    color: #ffffff;
+}
    
 
 }
