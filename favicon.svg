@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#14171f"/>
+  <text x="8" y="46"
+        font-family="Georgia, 'EB Garamond', 'Times New Roman', serif"
+        font-size="36" font-weight="600"
+        fill="#ece9e1">F</text>
+  <text x="30" y="46"
+        font-family="Georgia, 'EB Garamond', 'Times New Roman', serif"
+        font-size="36" font-style="italic"
+        fill="#4fb8a6">P</text>
+</svg>
