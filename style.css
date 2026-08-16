@@ -132,8 +132,8 @@ html[data-theme="dark"] .pub-status.neutral {
 
 
 html[data-theme="dark"] .pub-status {
-    color: #e8c98a;
-    background: #33301f;
+    color: var(--coral);
+    background: var(--coral-light);
 }
 
 
@@ -1440,6 +1440,45 @@ html[data-theme="dark"] section::before {
 }
 
 
+.interest-top {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    justify-content: space-between;
+
+    margin-bottom: 2.7rem;
+
+}
+
+
+.interest-top .interest-number {
+
+    margin-bottom: 0;
+
+}
+
+
+.interest-icon {
+
+    width: 26px;
+    height: 26px;
+
+    color: var(--rule);
+
+    transition: color 0.35s ease;
+
+}
+
+
+.interest-cell:hover .interest-icon {
+
+    color: var(--coral);
+
+}
+
+
 .interest-cell h3 {
 
     margin-bottom: 0.7rem;
@@ -1870,9 +1909,9 @@ html[data-theme="dark"] .news-timeline::before {
 
     padding: 0.22rem 0.5rem;
 
-    color: #856404;
+    color: var(--coral);
 
-    background: #fdedc9;
+    background: var(--coral-light);
 
 }
 
