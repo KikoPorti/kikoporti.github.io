@@ -2017,6 +2017,255 @@ html[data-theme="dark"] .news-timeline::before {
 
 }
 
+/* =========================================================
+   PUBLICATIONS — nuevo formato de tarjeta con thumbnail
+   Sustituye al bloque ".pub-item" original
+   ========================================================= */
+
+.pub-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1.4rem;
+
+}
+
+
+.pub-item {
+
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns: 148px 1fr;
+
+    gap: 1.6rem;
+
+    padding: 1.3rem;
+
+    background: var(--bg-white);
+
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+
+    transition:
+        border-color 0.25s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+
+}
+
+
+.pub-item:first-child,
+.pub-item:hover {
+
+    /* neutraliza los estilos antiguos de lista (border-top / padding-left) */
+    border-top: 1px solid var(--rule);
+
+}
+
+
+.pub-item:hover {
+
+    border-color: var(--accent);
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 10px 28px rgba(20, 23, 31, 0.06);
+
+}
+
+
+/* ---- thumbnail ---- */
+
+.pub-thumb {
+
+    width: 148px;
+    height: 148px;
+
+    border-radius: 4px;
+
+    overflow: hidden;
+
+    border: 1px solid var(--rule);
+
+    background: var(--bg);
+
+}
+
+
+.pub-thumb img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+}
+
+
+/* ---- category badge (esquina superior derecha) ---- */
+
+.pub-category {
+
+    position: absolute;
+
+    top: 1.3rem;
+    right: 1.3rem;
+
+    padding: 0.24rem 0.6rem;
+
+    font-family: var(--mono);
+    font-size: 0.58rem;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: var(--accent-dark);
+    background: var(--accent-light);
+
+    border-radius: 999px;
+
+}
+
+
+.pub-category.coral {
+
+    color: var(--coral);
+    background: var(--coral-light);
+
+}
+
+
+/* ---- meta (year / type / status) ---- */
+
+.pub-year {
+
+    padding-top: 0;
+
+}
+
+
+.pub-topline {
+
+    padding-right: 6rem;
+
+}
+
+
+/* ---- title / authors / venue ---- */
+
+.pub-content h3 {
+
+    padding-right: 6rem;
+
+    font-size: 1.15rem;
+
+}
+
+
+.pub-meta strong {
+
+    color: var(--ink);
+    font-weight: 600;
+
+}
+
+
+/* ---- tag row (Preprint / GitHub / TL;DR) ---- */
+
+.pub-tags {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 0.9rem;
+
+    margin-top: 0.8rem;
+
+}
+
+
+.pub-tags a {
+
+    color: var(--accent-dark);
+
+    font-family: var(--mono);
+    font-size: 0.68rem;
+
+    text-decoration: none;
+
+    border-bottom: 1px solid transparent;
+
+    transition: border-color 0.2s ease;
+
+}
+
+
+.pub-tags a:hover {
+
+    border-bottom-color: var(--accent-dark);
+
+}
+
+
+.pub-tags .tldr {
+
+    color: var(--ink-muted);
+
+    font-family: var(--mono);
+    font-size: 0.68rem;
+
+    cursor: pointer;
+
+}
+
+
+/* ---- mobile ---- */
+
+@media (max-width: 600px) {
+
+    .pub-item {
+
+        grid-template-columns: 1fr;
+
+        padding-left: 1.3rem; /* anula el padding-left: 1rem del hover antiguo si quedara */
+
+    }
+
+
+    .pub-thumb {
+
+        width: 100%;
+        height: 160px;
+
+    }
+
+
+    .pub-category {
+
+        position: static;
+
+        display: inline-block;
+
+        margin-bottom: 0.6rem;
+
+    }
+
+
+    .pub-topline,
+    .pub-content h3 {
+
+        padding-right: 0;
+
+    }
+
+}
 
 /* =========================================================
    EXPERIENCE
