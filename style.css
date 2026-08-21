@@ -2039,7 +2039,7 @@ html[data-theme="dark"] .news-timeline::before {
 
     display: grid;
 
-    grid-template-columns: 148px 1fr;
+    grid-template-columns: 200px 1fr;
 
     gap: 1.6rem;
 
@@ -2082,8 +2082,8 @@ html[data-theme="dark"] .news-timeline::before {
 
 .pub-thumb {
 
-    width: 148px;
-    height: 148px;
+    width: 200px;
+    height: 140px;
 
     border-radius: 4px;
 
